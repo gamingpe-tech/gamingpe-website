@@ -1,7 +1,6 @@
-import React from "react";
-import TeamCard from "../utils/TeamCard";
-import { sectionData } from "../../../mockData/sectionData";
-import teamData from "../../../mockData/teamData";
+import TeamCard from "@/components/sections/utils/TeamCard";
+import { sectionData } from "@/mockData/sectionData";
+import teamData from "@/mockData/teamData";
 
 const Team = () => {
   const { title, description } = sectionData.team;

@@ -1,6 +1,6 @@
 import React from "react";
-import calander from "../../../assets/images/icons/calander.svg";
-import viewers from "../../../assets/images/icons/views.svg";
+import calander from "@/assets/images/icons/calander.svg";
+import viewers from "@/assets/images/icons/views.svg";
 import { Link } from "react-router-dom";
 
 const BlogCard = ({ img, title, description, date, views, link }) => {

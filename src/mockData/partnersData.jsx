@@ -1,8 +1,8 @@
-import paymentmethods1 from "../assets/images/index/paymentmethods1.svg";
-import paymentmethods2 from "../assets/images/index/paymentmethods2.svg";
-import paymentmethods3 from "../assets/images/index/paymentmethods3.svg";
-import paymentmethods4 from "../assets/images/index/paymentmethods4.svg";
-import paymentmethods5 from "../assets/images/index/paymentmethods5.svg";
+import paymentmethods1 from "@/assets/images/index/paymentmethods1.svg";
+import paymentmethods2 from "@/assets/images/index/paymentmethods2.svg";
+import paymentmethods3 from "@/assets/images/index/paymentmethods3.svg";
+import paymentmethods4 from "@/assets/images/index/paymentmethods4.svg";
+import paymentmethods5 from "@/assets/images/index/paymentmethods5.svg";
 
 
 export const partnersLogos = [

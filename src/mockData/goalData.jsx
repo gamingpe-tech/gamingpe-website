@@ -1,12 +1,12 @@
-import img1 from "../assets/images/icons/market_Share.svg";
-import img2 from "../assets/images/icons/payment.svg";
-import img3 from "../assets/images/icons/service.svg";
-import fraudicons1 from "../assets/images/icons/fraudicons1.svg";
-import fraudicons2 from "../assets/images/icons/fraudicons2.svg";
-import fraudicons3 from "../assets/images/icons/fraudicons3.svg";
-import fraudicons4 from "../assets/images/icons/fraudicons4.svg";
-import fraudicons5 from "../assets/images/icons/fraudicons5.svg";
-import fraudicons6 from "../assets/images/icons/fraudicons6.svg";
+import img1 from "@/assets/images/icons/market_Share.svg";
+import img2 from "@/assets/images/icons/payment.svg";
+import img3 from "@/assets/images/icons/service.svg";
+import fraudicons1 from "@/assets/images/icons/fraudicons1.svg";
+import fraudicons2 from "@/assets/images/icons/fraudicons2.svg";
+import fraudicons3 from "@/assets/images/icons/fraudicons3.svg";
+import fraudicons4 from "@/assets/images/icons/fraudicons4.svg";
+import fraudicons5 from "@/assets/images/icons/fraudicons5.svg";
+import fraudicons6 from "@/assets/images/icons/fraudicons6.svg";
 
 
 

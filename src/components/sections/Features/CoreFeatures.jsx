@@ -1,7 +1,7 @@
 import React from "react";
-import ServicesCard from "../utils/ServicesCard";
-import { sectionData } from "../../../mockData/sectionData";
-import { featuresData } from "../../../mockData/featuresData";
+import ServicesCard from "@/components/sections/utils/ServicesCard";
+import { sectionData } from "@/mockData/sectionData";
+import { featuresData } from "@/mockData/featuresData";
 
 const CoreFeatures = () => {
   const { title, description, image } = sectionData.coreFeatures;

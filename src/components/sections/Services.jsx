@@ -7,12 +7,12 @@ import {
   RiInstagramFill,
   RiYoutubeFill,
 } from "@remixicon/react";
-import ServicesCard from "./utils/ServicesCard";
-import { sectionData } from "../../mockData/sectionData";
+import ServicesCard from "@/components/sections/utils/ServicesCard";
+import { sectionData } from "@/mockData/sectionData";
 import {
   servicesCardsData,
   socialMediaTransactions,
-} from "../../mockData/servicesData";
+} from "@/mockData/servicesData";
 
 const Services = () => {
   const { title, description, image } = sectionData.services;

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PricingCard from "./utils/PricingCard";
-import { sectionData } from "../../mockData/sectionData";
-import { pricingOptions } from "../../mockData/pricingData";
+import PricingCard from "@/components/sections/utils/PricingCard";
+import { sectionData } from "@/mockData/sectionData";
+import { pricingOptions } from "@/mockData/pricingData";
 
 const Pricing = () => {
   const { title, description, image } = sectionData.pricing;

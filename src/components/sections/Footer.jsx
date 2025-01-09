@@ -6,11 +6,11 @@ import {
   RiInstagramFill,
 } from "@remixicon/react";
 import Slider from "react-slick";
-import logo from "../../assets/images/logos/logo.svg";
+import logo from "@/assets/images/logos/logo.svg";
 import {
   sliderImages,
   sliderSettings,
-} from "../../mockData/footerSliderData";
+} from "@/mockData/footerSliderData";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

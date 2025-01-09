@@ -1,6 +1,6 @@
 import React from "react";
-import GoalCard from "../../sections/utils/GoalCard";
-import { goalData } from "../../../mockData/goalData";
+import GoalCard from "@/components/sections/utils/GoalCard";
+import { goalData } from "@/mockData/goalData";
 
 const AboutGoal = () => {
   return (

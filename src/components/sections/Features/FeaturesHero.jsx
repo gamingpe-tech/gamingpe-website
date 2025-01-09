@@ -1,6 +1,6 @@
 import React from "react";
 import { RiCloseLine, RiPlayFill } from "@remixicon/react";
-import { sectionData } from "../../../mockData/sectionData";
+import { sectionData } from "@/mockData/sectionData";
 
 const FeaturesHero = () => {
   const { image, videoUrl } = sectionData.featuresHero;

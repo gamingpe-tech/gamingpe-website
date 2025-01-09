@@ -1,6 +1,6 @@
-import footerSlider1 from "../assets/images/index/footerSlider_1.svg";
-import footerSlider2 from "../assets/images/index/footerSlider_2.svg";
-import footerSlider3 from "../assets/images/index/footerSlider_3.svg";
+import footerSlider1 from "@/assets/images/index/footerSlider_1.svg";
+import footerSlider2 from "@/assets/images/index/footerSlider_2.svg";
+import footerSlider3 from "@/assets/images/index/footerSlider_3.svg";
 
 export const sliderImages = [
   { src: footerSlider1, alt: "footerSlider1" },

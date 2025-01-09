@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/sections/Header";
-import SubPage_Hero from "../components/sections/SubPage_Hero";
-import FeaturesHero from "../components/sections/Features/FeaturesHero";
-import Services from "../components/sections/Services";
-import Visa from "../components/sections/Visa";
-import CoreFeatures from "../components/sections/Features/CoreFeatures";
-import NewsLetter from "../components/sections/NewsLetter";
-import Footer from "../components/sections/Footer";
-import { subPageHeroData } from "../mockData/sectionData";
+import Header from "@/components/sections/Header";
+import SubPage_Hero from "@/components/sections/SubPage_Hero";
+import FeaturesHero from "@/components/sections/Features/FeaturesHero";
+import Services from "@/components/sections/Services";
+import Visa from "@/components/sections/Visa";
+import CoreFeatures from "@/components/sections/Features/CoreFeatures";
+import NewsLetter from "@/components/sections/NewsLetter";
+import Footer from "@/components/sections/Footer";
+import { subPageHeroData } from "@/mockData/sectionData";
 
 const Features = () => {
   const { title, description } = subPageHeroData.features;

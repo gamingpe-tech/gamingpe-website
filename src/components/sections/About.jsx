@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiCloseLine, RiPlayLine, RiStarFill } from "@remixicon/react";
-import { sectionData } from "../../mockData/sectionData";
+import { sectionData } from "@/mockData/sectionData";
 
 const About = () => {
   const { title, description, images, videoLink, stats, rating } =

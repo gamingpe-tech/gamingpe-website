@@ -1,7 +1,7 @@
-import SliderImg1 from "../assets/images/slider/testimionalSlider_1.webp";
-import SliderImg2 from "../assets/images/slider/testimionalSlider_2.webp";
-import SliderImg3 from "../assets/images/slider/testimionalSlider_3.webp";
-import Comma from "../assets/images/icons/Comma.svg";
+import SliderImg1 from "@/assets/images/slider/testimionalSlider_1.webp";
+import SliderImg2 from "@/assets/images/slider/testimionalSlider_2.webp";
+import SliderImg3 from "@/assets/images/slider/testimionalSlider_3.webp";
+import Comma from "@/assets/images/icons/Comma.svg";
 import { RiArrowLeftLine, RiArrowRightLine } from "@remixicon/react";
 
 export const testimonials = [

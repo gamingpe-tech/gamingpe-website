@@ -6,8 +6,8 @@ import {
   RiMenuLine,
 } from "@remixicon/react";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/images/logos/logo.svg";
-import { menuItems } from "../../mockData/menuItemsData";
+import logo from "@/assets/images/logos/logo.svg";
+import { menuItems } from "@/mockData/menuItemsData";
 
 const Header = () => {
   const location = useLocation();
