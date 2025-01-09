@@ -1,5 +1,5 @@
 import { sectionData } from "../../mockData/sectionData";
-import HomeWMap from "home/runner/work/gamingpe-website/gamingpe-website/src/assets/images/index/homeWmap.mp4";
+
 
 const Hero = () => {
   const { title, title2, title3 } = sectionData.hero;
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
       <div className="video-container">
         <video
-          src={HomeWMap} // Replace with your video file path
+          src="/assets/images/homeWmap.mp4" // Replace with your video file path
           autoPlay
           // loop
           muted
