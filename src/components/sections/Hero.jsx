@@ -1,5 +1,5 @@
 import { sectionData } from "../../mockData/sectionData";
-import HomeWMap from "/home/runner/work/gamingpe-website/gamingpe-website/src/assets/images/index/homeWmap.mp4";
+import HomeWMap from "home/runner/work/gamingpe-website/gamingpe-website/src/assets/images/index/homeWmap.mp4";
 
 const Hero = () => {
   const { title, title2, title3 } = sectionData.hero;
