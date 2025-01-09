@@ -12,4 +12,4 @@ RUN chgrp -R 0 /app && chmod -R g=u /app
 
 RUN npm run build
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "preview"]
