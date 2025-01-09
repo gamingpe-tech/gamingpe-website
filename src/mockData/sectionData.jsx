@@ -10,7 +10,6 @@ import visaCard from "../assets/images/index/visaCard.webp";
 import pricingImg from "../assets/images/index/pricing_Img.webp";
 import StatsImg from "../assets/images/index/Stats_Img.webp";
 import globe from "../assets/images/index/globe.mp4";
-import FeaturesHeroImg from "../assets/images/index/featuresHero_Img.webp";
 import coreFeaturesImg from "../assets/images/index/coreFeatures.webp";
 import card1 from "../assets/images/index/card1.svg";
 import card2 from "../assets/images/index/card2.svg";
@@ -158,7 +157,7 @@ export const sectionData = {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   featuresHero: {
-    image: FeaturesHeroImg,
+    image: "../assets/images/index/featuresHero_Img.webp",
     videoUrl: "https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13",
   },
   coreFeatures: {
