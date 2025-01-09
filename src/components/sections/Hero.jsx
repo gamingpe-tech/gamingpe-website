@@ -1,11 +1,8 @@
-import React from "react";
 import { sectionData } from "../../mockData/sectionData";
-import { Link } from "react-router-dom";
 import HomeWMap from "../../assets/images/index/homeWmap.mp4";
 
 const Hero = () => {
-  const { title, countries, title2, title3, countries_image } =
-    sectionData.hero;
+  const { title, title2, title3 } = sectionData.hero;
 
   return (
     <section className="Hero">
