@@ -5,6 +5,6 @@ files:
     destination: /gamingpe-website
 hooks:
   ApplicationStart:
-    - location: scripts/start-process.sh
+    - location: ./start-process.sh
       timeout: 3000
       runas: root
