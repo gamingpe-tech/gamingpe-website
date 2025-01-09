@@ -10,7 +10,6 @@ import visaCard from "../assets/images/index/visaCard.webp";
 import pricingImg from "../assets/images/index/pricing_Img.webp";
 import StatsImg from "../assets/images/index/Stats_Img.webp";
 import globe from "../assets/images/index/globe.mp4";
-import coreFeaturesImg from "../assets/images/index/coreFeatures.webp";
 import card1 from "../assets/images/index/card1.svg";
 import card2 from "../assets/images/index/card2.svg";
 import card3 from "../assets/images/index/card3.svg";
@@ -164,7 +163,7 @@ export const sectionData = {
     title: "Core Features",
     description:
       "Experience hassle-free gaming with transparent pricing, swift delivery, and secure transactions, backed by 24/7 support and a money-back guarantee.",
-    image: coreFeaturesImg,
+    image: "../assets/images/index/coreFeatures.webp",
   },
 };
 
