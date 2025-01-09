@@ -1,10 +1,9 @@
-import React from "react";
 import StatsCards from "@/components/sections/utils/StatsCards";
 import { statsData } from "@/mockData/statsData";
 import { sectionData } from "@/mockData/sectionData";
 
 const Stats = () => {
-  const { title, description, image, video } = sectionData.stats;
+  const { title, description, video } = sectionData.stats;
 
   return (
     <section className="Stats">

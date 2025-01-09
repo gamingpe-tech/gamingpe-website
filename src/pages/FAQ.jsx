@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "@/components/sections/Header";
 import SubPage_Hero from "@/components/sections/SubPage_Hero";
 import QuestionsFAQ from "@/components/sections/FAQ/QuestionsFAQ";
