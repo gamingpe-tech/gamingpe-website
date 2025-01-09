@@ -1,8 +1,8 @@
 import React from "react";
-import TestimonialSlider from "@/components/sections/utils/TestimonialSlider";
+import TestimonialSlider from "./utils/TestimonialSlider";
 import Slider from "react-slick";
-import { sectionData } from "@/mockData/sectionData";
-import { testimonials, settings } from "@/mockData/testimonialsData";
+import { sectionData } from "../../mockData/sectionData";
+import { testimonials, settings } from "../../mockData/testimonialsData";
 
 const Testimonials = () => {
   const { title, description } = sectionData.testimonials;

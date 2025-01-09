@@ -1,6 +1,7 @@
-import BlogCard from "@/components/sections/utils/BlogCard";
-import { sectionData } from "@/mockData/sectionData";
-import { blogData } from "@/mockData/blogData";
+import React from "react";
+import BlogCard from "./utils/BlogCard";
+import { sectionData } from "../../mockData/sectionData";
+import { blogData } from "../../mockData/blogData";
 
 const Blog = () => {
   const { title, description } = sectionData.blog;
@@ -8,10 +9,7 @@ const Blog = () => {
   return (
     <section className="Blog">
       <div className="container">
-        <div
-          className="d-flex justify-content-center align-items-center flex-column text-center"
-          data-aos="fade-up"
-        >
+        <div className="d-flex justify-content-center align-items-center flex-column text-center" data-aos="fade-up">
           <h2>{title}</h2>
           <p>{description}</p>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { sectionData } from "@/mockData/sectionData";
-import { visaSliderImgs, settings } from "@/mockData/visaData";
+import { sectionData } from "../../mockData/sectionData";
+import { visaSliderImgs, settings } from "../../mockData/visaData";
 
 const Visa = () => {
   const { title, description, images, integrations } = sectionData.visa;

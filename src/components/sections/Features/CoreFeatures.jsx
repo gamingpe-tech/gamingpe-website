@@ -1,6 +1,7 @@
-import ServicesCard from "@/components/sections/utils/ServicesCard";
-import { sectionData } from "@/mockData/sectionData";
-import { featuresData } from "@/mockData/featuresData";
+import React from "react";
+import ServicesCard from "../utils/ServicesCard";
+import { sectionData } from "../../../mockData/sectionData";
+import { featuresData } from "../../../mockData/featuresData";
 
 const CoreFeatures = () => {
   const { title, description, image } = sectionData.coreFeatures;
@@ -8,10 +9,7 @@ const CoreFeatures = () => {
   return (
     <section className="CoreFeatures">
       <div className="container position-relative">
-        <div
-          className="d-flex justify-content-center align-items-center text-center mx-auto flex-column"
-          data-aos="fade-up"
-        >
+        <div className="d-flex justify-content-center align-items-center text-center mx-auto flex-column" data-aos="fade-up">
           <h2>{title}</h2>
           <p>{description}</p>
         </div>
@@ -29,7 +27,7 @@ const CoreFeatures = () => {
           </div>
           <div className="col-xl-4 col-md-4">
             <figure className="d-flex justify-content-center">
-              <img src={image} alt="coreImg" data-aos="zoom-in-up" />
+              <img src={image} alt="coreImg" data-aos="zoom-in-up"/>
             </figure>
           </div>
           <div className="col-xl-3 col-md-4">

@@ -5,7 +5,7 @@ import {
 } from "@remixicon/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import comingSoonImg from "@/assets/images/index/comingSoon_bg.webp";
+import comingSoonImg from "../assets/images/index/comingSoon_bg.webp";
 
 const ComingSoon = () => {
   return (

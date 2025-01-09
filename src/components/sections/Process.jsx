@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ProcessCard from "@/components/sections/utils/ProcessCard";
-import { sectionData } from "@/mockData/sectionData";
-import { processCardsData } from "@/mockData/processData";
+import ProcessCard from "./utils/ProcessCard";
+import { sectionData } from "../../mockData/sectionData";
+import { processCardsData } from "../../mockData/processData";
 
 const Process = () => {
   const { title, description, imagembl, cards } = sectionData.process;

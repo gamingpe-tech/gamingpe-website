@@ -1,9 +1,9 @@
-import Blog_Img1 from "@/assets/images/index/Blog_Img1.webp";
-import Blog_Img2 from "@/assets/images/index/Blog_Img2.webp";
-import Blog_Img3 from "@/assets/images/index/Blog_Img3.webp";
-import Blog_Img4 from "@/assets/images/index/Blog_Img4.webp";
-import Blog_Img5 from "@/assets/images/index/Blog_Img5.webp";
-import Blog_Img6 from "@/assets/images/index/Blog_Img6.webp";
+import Blog_Img1 from "../assets/images/index/Blog_Img1.webp";
+import Blog_Img2 from "../assets/images/index/Blog_Img2.webp";
+import Blog_Img3 from "../assets/images/index/Blog_Img3.webp";
+import Blog_Img4 from "../assets/images/index/Blog_Img4.webp";
+import Blog_Img5 from "../assets/images/index/Blog_Img5.webp";
+import Blog_Img6 from "../assets/images/index/Blog_Img6.webp";
 
 export const blogData = [
   {

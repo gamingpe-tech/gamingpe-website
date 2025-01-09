@@ -1,9 +1,9 @@
-import teamMember1 from "@/assets/images/index/team_member1.webp";
-import teamMember2 from "@/assets/images/index/team_member2.webp";
-import teamMember3 from "@/assets/images/index/team_member3.webp";
-import teamMember4 from "@/assets/images/index/team_member4.webp";
-import teamMember5 from "@/assets/images/index/team_member5.webp";
-import teamMember6 from "@/assets/images/index/team_member6.webp";
+import teamMember1 from "../assets/images/index/team_member1.webp";
+import teamMember2 from "../assets/images/index/team_member2.webp";
+import teamMember3 from "../assets/images/index/team_member3.webp";
+import teamMember4 from "../assets/images/index/team_member4.webp";
+import teamMember5 from "../assets/images/index/team_member5.webp";
+import teamMember6 from "../assets/images/index/team_member6.webp";
 
 const teamData = [
   {

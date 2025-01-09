@@ -1,6 +1,6 @@
-import accountImg from "@/assets/images/icons/account.svg";
-import configration from "@/assets/images/icons/configration.svg";
-import access from "@/assets/images/icons/access.svg";
+import accountImg from "../assets/images/icons/account.svg";
+import configration from "../assets/images/icons/configration.svg";
+import access from "../assets/images/icons/access.svg";
 
 export const processCardsData = [
   {

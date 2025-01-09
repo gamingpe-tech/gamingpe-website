@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { sectionData } from "@/mockData/sectionData";
+import { sectionData } from "../../../mockData/sectionData";
 
 const Simplicity = () => {
   const { title, description, link } = sectionData.simplicity;

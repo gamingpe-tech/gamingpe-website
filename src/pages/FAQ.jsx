@@ -1,9 +1,10 @@
-import Header from "@/components/sections/Header";
-import SubPage_Hero from "@/components/sections/SubPage_Hero";
-import QuestionsFAQ from "@/components/sections/FAQ/QuestionsFAQ";
-import NewsLetter from "@/components/sections/NewsLetter";
-import Footer from "@/components/sections/Footer";
-import { subPageHeroData } from "@/mockData/sectionData";
+import React from "react";
+import Header from "../components/sections/Header";
+import SubPage_Hero from "../components/sections/SubPage_Hero";
+import QuestionsFAQ from "../components/sections/FAQ/QuestionsFAQ";
+import NewsLetter from "../components/sections/NewsLetter";
+import Footer from "../components/sections/Footer";
+import { subPageHeroData } from "../mockData/sectionData";
 
 const FAQ = () => {
   const { title, description } = subPageHeroData.faq;

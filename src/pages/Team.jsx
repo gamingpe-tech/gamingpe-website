@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "@/components/sections/Header";
-import SubPage_Hero from "@/components/sections/SubPage_Hero";
-import TeamSection from "@/components/sections/Team/Team";
-import NewsLetter from "@/components/sections/NewsLetter";
-import Footer from "@/components/sections/Footer";
-import { subPageHeroData } from "@/mockData/sectionData";
+import Header from "../components/sections/Header";
+import SubPage_Hero from "../components/sections/SubPage_Hero";
+import TeamSection from "../components/sections/Team/Team";
+import NewsLetter from "../components/sections/NewsLetter";
+import Footer from "../components/sections/Footer";
+import { subPageHeroData } from "../mockData/sectionData";
 
 const Team = () => {
   const { title, description } = subPageHeroData.team;

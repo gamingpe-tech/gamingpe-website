@@ -1,8 +1,8 @@
-import visaSlider_1 from "@/assets/images/index/visaSlider_1.svg";
-import visaSlider_2 from "@/assets/images/index/visaSlider_2.svg";
-import visaSlider_3 from "@/assets/images/index/visaSlider_3.svg";
-import visaSlider_4 from "@/assets/images/index/visaSlider_4.svg";
-import visaSlider_5 from "@/assets/images/index/visaSlider_5.svg";
+import visaSlider_1 from "../assets/images/index/visaSlider_1.svg";
+import visaSlider_2 from "../assets/images/index/visaSlider_2.svg";
+import visaSlider_3 from "../assets/images/index/visaSlider_3.svg";
+import visaSlider_4 from "../assets/images/index/visaSlider_4.svg";
+import visaSlider_5 from "../assets/images/index/visaSlider_5.svg";
 
 export const visaSliderImgs = [
   { src: visaSlider_1, alt: "visaSlider_1" },

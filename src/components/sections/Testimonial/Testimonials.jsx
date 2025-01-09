@@ -1,5 +1,6 @@
-import TestimonialSlider from "@/components/sections/utils/TestimonialSlider";
-import { testimonials } from "@/mockData/testimonialsData";
+import React from "react";
+import TestimonialSlider from "../utils/TestimonialSlider";
+import { testimonials } from "../../../mockData/testimonialsData";
 
 const Testimonials = () => {
   return (

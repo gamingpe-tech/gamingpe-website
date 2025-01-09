@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Accordian from "@/components/sections/utils/Accordian";
-import { sectionData } from "@/mockData/sectionData";
-import { faqData } from "@/mockData/FaqData";
+import Accordian from "./utils/Accordian";
+import { sectionData } from "../../mockData/sectionData";
+import { faqData } from "../../mockData/FaqData";
 
 const FAQ = () => {
   const { title, description, link } = sectionData.faq;

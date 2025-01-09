@@ -1,5 +1,6 @@
-import BlogCard from "@/components/sections/utils/BlogCard";
-import { blogData } from "@/mockData/blogData";
+import React from "react";
+import BlogCard from "../utils/BlogCard";
+import { blogData } from "../../../mockData/blogData";
 
 const Blog = () => {
   return (

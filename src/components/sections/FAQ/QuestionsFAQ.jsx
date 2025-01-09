@@ -1,5 +1,6 @@
-import Accordian from "@/components/sections/utils/Accordian";
-import { faqData } from "@/mockData/FaqData";
+import React from "react";
+import Accordian from "../utils/Accordian";
+import { faqData } from "../../../mockData/FaqData";
 
 const QuestionsFAQ = () => {
   return (
