@@ -11,6 +11,10 @@ import Features from "../pages/Features";
 import Pricing from "../pages/Pricing";
 import Team from "../pages/Team";
 import Testimonials from "../pages/Testimonials";
+import TechnicalConnector from "../pages/TechnicalConnector";
+import APIIntegration from "../pages/APIIntegration";
+import CryptoCurrency from "../pages/CryptoCurrency";
+import OurVision from "../pages/OurVision";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +36,22 @@ export const router = createBrowserRouter([
       {
         path: "/gamingpe/features",
         element: <Features />,
+      },
+      {
+        path: "/gamingpe/technicalconnector",
+        element: <TechnicalConnector />,
+      },
+      {
+        path: "/gamingpe/apiintegration",
+        element: <APIIntegration />,
+      },
+      {
+        path: "/gamingpe/cryptocurrency",
+        element: <CryptoCurrency />,
+      },
+      {
+        path: "/gamingpe/oruvision",
+        element: <OurVision />,
       },
       {
         path: "/gamingpe/pricing",

@@ -1,8 +1,11 @@
+import React from "react";
 import { sectionData } from "../../mockData/sectionData";
-
+import { Link } from "react-router-dom";
+import HomeWMap from "../../assets/images/index/homeWmap.mp4";
 
 const Hero = () => {
-  const { title, title2, title3 } = sectionData.hero;
+  const { title, countries, title2, title3, countries_image } =
+    sectionData.hero;
 
   return (
     <section className="Hero">
@@ -20,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="video-container">
         <video
-          src="/assets/images/homeWmap.mp4" // Replace with your video file path
+          src={HomeWMap} // Replace with your video file path
           autoPlay
           // loop
           muted

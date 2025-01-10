@@ -1113,6 +1113,10 @@ header .search-button:hover {
     padding: 130px 0px 0px;
 }
 
+.Goal .row{
+    justify-content: center;
+}
+
 .Goal h2 {
     background: linear-gradient(82.48deg, #B7CEA6 -12.93%, #FCFEF5 92.19%);
     background-clip: text;
@@ -1597,6 +1601,7 @@ header .search-button:hover {
     border-top: 1px solid #2D6A77;
     border-bottom: 1px solid #2D6A77;
 }
+
 
 .Pricing figure {
     height: 100%;
@@ -2623,4 +2628,14 @@ footer .py-2 p {
 
 .ComingSoon img {
     animation: bounce 3s ease-in-out infinite;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 24.API Integarations CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.APIIntegration p{
+    color:rgb(255, 255, 255);
 }
