@@ -12,6 +12,7 @@ import Testimonials from "../components/sections/Testimonials";
 import NewsLetter from "../components/sections/NewsLetter";
 import Footer from "../components/sections/Footer";
 import { subPageHeroData } from "../mockData/sectionData";
+import AboutFlexibility from "../components/sections/About/AboutFlexibility";
 
 const About = () => {
   const { title, description } = subPageHeroData.about;
@@ -23,10 +24,14 @@ const About = () => {
         <SubPage_Hero title={title} description={description} />
         <AboutServices />
       </div>
-      <AboutGoal />
-      <Partners />
+      {/* <AboutGoal /> */}
+      <div style={{padding:'100px 0px 0px'}}>
+         <Partners />
+      </div>
+     
       {/* <Simplicity /> */}
       {/* <Process /> */}
+      <AboutFlexibility />
       <Stats />
       {/* <Team /> */}
       {/* <Testimonials /> */}

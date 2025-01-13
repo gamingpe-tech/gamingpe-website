@@ -6,7 +6,7 @@ const OurVisionPage = () => {
   const { title, description, image } = sectionData.ourVision;
 
   return (
-    <section className="Services AboutServices">
+    <section className="Services AboutServices OurVision">
       <div className="container">
         <div className="row gy-md-0 gy-5">
           <div className="col-lg-6 col-md-6">
@@ -19,19 +19,19 @@ const OurVisionPage = () => {
                   </p>
                 ))}
               </div>
-              <div className="d-flex align-items-center pt-4 mt-lg-2 justify-content-md-start justify-content-center">
+              {/* <div className="d-flex align-items-center pt-4 mt-lg-2 justify-content-md-start justify-content-center">
                 <div>
                   <Link className="hover1" to={"/gamingpe/features"}>
                     Get the Card
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="position-relative">
               <figure className="d-flex justify-content-center position-relative" >
-                <img src={image} alt="ServicesImg" data-aos="zoom-in-up"/>
+                <img src={image} alt="ServicesImg" data-aos="zoom-in-up" style={{width: "80%"}}/>
               </figure>
             </div>
           </div>

@@ -762,12 +762,12 @@ header .modal-content {
 }
 
 header .modal-content input {
-    border: none;
+    /* border: none; */
     border-bottom: 1px solid #6C8DA4;
-    background: transparent;
+    background: #fff;
     padding: 20px;
     outline: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 @keyframes slideDown {
@@ -1103,6 +1103,26 @@ header .search-button:hover {
     padding: 0px;
 }
 
+.AboutServices h3 {
+    background: linear-gradient(82.48deg, #B7CEA6 -12.93%, #FCFEF5 92.19%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-transform: uppercase; */
+    width: 100%;
+}
+
+.AboutFlexibility {
+    padding: 60px 0px 0px;
+}
+
+.AboutFlexibility h3,
+.AboutFlexibility h2 {
+    background: linear-gradient(99.32deg, #B7CEA6 14.4%, #ECFBFE 32.69%, #FCFEF5 48.66%, #C0D4C9 63.86%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 06.Goal CSS STYLE
@@ -1113,7 +1133,7 @@ header .search-button:hover {
     padding: 130px 0px 0px;
 }
 
-.Goal .row{
+.Goal .row {
     justify-content: center;
 }
 
@@ -1133,49 +1153,73 @@ header .search-button:hover {
 
 .Goal .Goal_Card {
     background: #082D40BD;
-    padding: 30px 20px;
+    border: 1px solid #9cf2a366;
+    padding: 30px 0px 20px;
     border-radius: 25px;
     transition: 0.3s ease all;
-    height: 100%;
+    height: auto;
+    position: relative; /* Ensure figure is positioned relative to this container */
 }
 
 .Goal .Goal_Card:hover {
     background: #082d40;
 }
 
-.Goal .Goal_Card:hover figure {
-    transform: translateY(-10%);
-}
-
-.Goal .Goal_Card h4 {
-    padding: 25px 0px 20px;
-    color: #E4E4E4;
-}
-
-.Goal .Goal_Card p {
-    font-size: 14px;
-    color: #E4E4E4;
-    padding: 0px 14px;
-}
-
 .Goal .Goal_Card figure {
     background: linear-gradient(180deg, #2589AC 0%, #DB9B1E 100%);
-    /* width: 145px;
-    height: 145px; */
-    border-radius: 20px;
-    transition: 0.3s ease all;
+    border-radius: 50%;
     padding: 20px;
     position: absolute;
-    top: -30%;
-    border-radius: 50%;
-    border: 2px solid #8ED3FF;
+    top: -50%; /* Default position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    border: 2px solid #41ae49;
     background: #072638;
+    transition: top 0.3s ease, transform 0.3s ease; /* Smooth transition for top */
 }
 
+.Goal .Goal_Card:hover figure {
+    top: -25%; /* New position when hovered */
+}
+
+.ant-collapse-header{
+    padding: 0px !important;
+}
 .Goal .Goal_Card img {
     width: 60px;
     height: 60px;
 }
+
+.Goal .Goal_Card h4 {
+    padding: 25px 0px 20px;
+    color: #69c970;
+}
+
+.Goal .Goal_Card_description {
+    font-size: 14px;
+    color: #E4E4E4;
+    padding: 10px 14px;
+    margin: 0;
+    transition: opacity 0.3s ease, height 0.3s ease; /* Smooth transition for text collapse */
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.Goal .Goal_Card:hover .Goal_Card_description {
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.3s ease, height 0.3s ease; /* Smooth expansion */
+}
+
+.ant-motion-collapse {
+    transition: all 2s ease-in-out !important; /* Increase time here */
+  }
+  
+  
+
+
+
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -1473,6 +1517,7 @@ header .search-button:hover {
     bottom: -90px;
     z-index: 100;
     left: 70px;
+    width: 51%;
 }
 
 .Services .position-absolute .justify-content-between figure {
@@ -1522,7 +1567,7 @@ header .search-button:hover {
 */
 
 .Visa {
-    padding: 120px 0px 45px;
+    padding: 120px 0px 60px;
 }
 
 .Visa img {
@@ -1539,7 +1584,7 @@ header .search-button:hover {
     background-color: rgba(8, 45, 64, 0.95);
     border-radius: 25px;
     position: relative;
-    top: -110px;
+    top: -40px;
     padding: 50px;
     border: 1px solid #2D6A77
 }
@@ -1622,7 +1667,7 @@ header .search-button:hover {
 .Pricing img {
     position: relative;
     z-index: 1;
-    width: 70%;
+    width: 100%;
     height: auto;
     animation: bounce 3s ease-in-out infinite;
 }
@@ -2191,6 +2236,104 @@ footer .py-2 p {
 * ----------------------------------------------------------------------------------------
 */
 
+/* Video remains full size */
+.Stats {
+    position: relative;
+  }
+  
+  .background-video {
+    width: 100%;
+    /* border-radius: 50%; */
+    z-index: 1;
+    position: relative;
+  }
+  
+  .orbit {
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    right: 45%;
+    bottom: 45%;
+    width: 550px; /* Adjust orbit diameter */
+    height: 550px; /* Adjust orbit diameter */
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 2;
+    pointer-events: none;
+    /* background: #0056b3; */
+  }
+  
+  .orbit-item {
+    position: absolute;
+    width: 100px; /* Adjust size of SVG images */
+    height: 100px;
+    animation: orbitAnimation 10s linear infinite;
+  }
+  
+  .orbit-item:nth-child(1) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 0s;
+  }
+  
+  .orbit-item:nth-child(2) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 1.3s;
+  }
+  
+  .orbit-item:nth-child(3) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 2.5s;
+  }
+  
+  .orbit-item:nth-child(4) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 3.7s;
+  }
+  
+  .orbit-item:nth-child(5) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 4.9s;
+  }
+  
+  .orbit-item:nth-child(6) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 6.1s;
+  }
+  .orbit-item:nth-child(7) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 7.3s;
+  } 
+   .orbit-item:nth-child(8) {
+    top:45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation-delay: 8.5s;
+  }
+  
+  @keyframes orbitAnimation {
+    0% {
+      transform: rotate(0deg) translateX(300px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+    }
+  }
+  
+  
 .Stats {
     padding: 100px 0px 100px;
 }
@@ -2638,4 +2781,121 @@ footer .py-2 p {
 
 .APIIntegration p{
     color:rgb(255, 255, 255);
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 25.Subscribe modal CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.subscribe-modal .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .subscribe-modal .modal-content {
+    /* background: #1c1c1c; */
+    backdrop-filter: blur(30px);
+    padding: 50px;
+    border-radius: 8px;
+    width: 100%;
+    /* max-width: 400px; */
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .subscribe-modal .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .subscribe-modal .modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .subscribe-modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .subscribe-modal .form-group {
+    display: flex;
+    gap: 18px;
+  }
+  
+  .subscribe-modal .form-group input {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    /* background: #2c2c2c; */
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .subscribe-modal .form-group input::placeholder {
+    color: #888;
+  }
+  
+  .subscribe-modal .submit-button {
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .subscribe-modal .submit-button:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 750px) {
+    .subscribe-modal .form-group {
+      flex-direction: column;
+    }
+  }
+  
+  .OurVision figure.position-relative::before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    left: 0px;
+    width: 100%;
+    height: 101.4%;
+    z-index: -1;
+    background: url("../images/bg/services-bg.webp") center center / cover no-repeat;
+    background-size: 90% 80%;
+}
+
+ .APIIntegration .position-relative::before {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 60px;
+    width: 87%;
+    height: 80%;
+    z-index: 0;
+    background: url("../images/bg/pricing_bg.webp") center center / cover no-repeat;
+    background-size: contain;
 }

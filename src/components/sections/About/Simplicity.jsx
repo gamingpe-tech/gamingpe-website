@@ -12,11 +12,11 @@ const Simplicity = () => {
           <div className="text-md-start text-center">
             <h3>{title}</h3>
             <p>{description}</p>
-            <div>
+            {/* <div>
               <Link className="hover1" to={"/gamingpe/testimonials"}>
                 Get the Card
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -15,14 +15,15 @@ import TechnicalConnector from "../pages/TechnicalConnector";
 import APIIntegration from "../pages/APIIntegration";
 import CryptoCurrency from "../pages/CryptoCurrency";
 import OurVision from "../pages/OurVision";
+import NewsLetter from "../components/sections/NewsLetter";
 
 export const router = createBrowserRouter([
   {
-    path: "/gamingpe",
+    path: "/",
     element: <RootLayout />,
     children: [
       {
-        path: "/gamingpe",
+        path: "/",
         element: <Home />,
       },
       {
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
       {
         path: "/gamingpe/oruvision",
         element: <OurVision />,
+      },
+      {
+        path: "/gamingpe/newsletter",
+        element: <NewsLetter />,
       },
       {
         path: "/gamingpe/pricing",

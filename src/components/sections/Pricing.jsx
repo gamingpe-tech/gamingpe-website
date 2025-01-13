@@ -36,11 +36,11 @@ const Pricing = () => {
                   />
                 ))}
               </div>
-              <div>
+              {/* <div>
                 <Link className="hover1" to={"/gamingpe/pricing"}>
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -84,11 +84,11 @@ const Process = () => {
                   />
                 ))}
               </div>
-              <div className="d-md-block d-flex justify-content-center">
+              {/* <div className="d-md-block d-flex justify-content-center">
                 <Link className="hover1 mt-md-3" to="/gamingpe/features">
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

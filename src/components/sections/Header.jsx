@@ -103,8 +103,33 @@ const Header = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    localStorage.setItem("isModalOpen", "false");
     document.body.style.overflow = "auto";
   };
+
+  const scrollToBottom = () => {
+    const targetSection = document.getElementById("subscribe-modal");
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+  
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const modalState = localStorage.getItem("isModalOpen");
+      if (modalState === "true") {
+        openModal();
+      }
+    };
+
+    // Listen for storage changes
+    window.addEventListener("storage", handleStorageChange);
+
+    // Cleanup listener on component unmount
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, []);
 
   return (
     <header>
@@ -167,14 +192,19 @@ const Header = () => {
                     )
                   )}
                 </ul>
-                {/* <div className="search SearchModal" onClick={openModal}>
+                <div className="search SearchModal" onClick={openModal}>
                   <a className="text-white px-3">
                     <RiSearchLine size={30} />
                   </a>
-                </div> */}
+                </div>
               </div>
               <div>
-                <NavLink to="" className="hover1" id="getStartedAnchor">
+                <NavLink
+                  to="/gamingpe/newsletter"
+                  className="hover1"
+                  id="getStartedAnchor"
+                  // onClick={scrollToBottom}
+                >
                   Get in touch
                 </NavLink>
               </div>
@@ -182,19 +212,13 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      {isModalOpen && (
-        <div className="modal-overlay">
-          <button className="close-modal" onClick={closeModal}>
-            <i>
-              <RiCloseLine size={40} />
-            </i>
-          </button>
-          <div className="modal-content">
-            <input type="text" placeholder="Search..." />
-            <button className="search-button ">Search</button>
-          </div>
-        </div>
-      )}
+{/*      
+      <SubscribeModal
+        openModal={openModal}
+        closeModal={closeModal}
+        isModalOpen={isModalOpen}
+      /> */}
+
       <aside>
         <div id="mySidenav" className="right-sidbar" ref={sidepanelRef}>
           <div className="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">

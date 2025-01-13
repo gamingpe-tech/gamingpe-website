@@ -856,6 +856,18 @@
         width: 95%;
         top: -70px;
     }
+
+    .APIIntegration .position-relative::before {
+        content: "";
+        position: absolute;
+        top: 12%;
+        left: 40px;
+        width: 83%;
+        height: 80%;
+        z-index: 0;
+        background: url("../images/bg/pricing_bg.webp") center center / cover no-repeat;
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -893,6 +905,11 @@
 @media screen and (max-width: 360px) {
     .Visa {
         padding: 10px 0px 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .APIIntegration .position-relative::before {
+        background-size: 100% 75% !important;
     }
 }
 

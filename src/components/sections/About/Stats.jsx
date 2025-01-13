@@ -3,8 +3,18 @@ import StatsCards from "../utils/StatsCards";
 import { statsData } from "../../../mockData/statsData";
 import { sectionData } from "../../../mockData/sectionData";
 
+// Import country images
+import country1 from "../../../assets/images/index/country1.png";
+import country2 from "../../../assets/images/index/country2.png";
+import country3 from "../../../assets/images/index/country3.png";
+import country4 from "../../../assets/images/index/country4.png";
+import country5 from "../../../assets/images/index/country5.png";
+import country6 from "../../../assets/images/index/country6.png";
+import country7 from "../../../assets/images/index/country7.png";
+import country8 from "../../../assets/images/index/country8.png";
+
 const Stats = () => {
-  const { title, description, image, video } = sectionData.stats;
+  const { title, description, video } = sectionData.stats;
 
   return (
     <section className="Stats">
@@ -27,10 +37,7 @@ const Stats = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            {/* <figure data-aos="zoom-in-up">
-              <img className="w-100" src={image} alt="Stats" />
-            </figure> */}
+          <div className="col-md-6 position-relative">
             <video
               src={video} // Replace with your video file path
               autoPlay
@@ -39,6 +46,16 @@ const Stats = () => {
               playsInline
               className="background-video"
             />
+            <div className="orbit">
+              <img src={country1} alt="icon1" className="orbit-item" />
+              <img src={country2} alt="icon2" className="orbit-item" />
+              <img src={country3} alt="icon3" className="orbit-item" />
+              <img src={country4} alt="icon4" className="orbit-item" />
+              <img src={country5} alt="icon5" className="orbit-item" />
+              <img src={country6} alt="icon6" className="orbit-item" />
+              <img src={country7} alt="icon7" className="orbit-item" />
+              <img src={country8} alt="icon8" className="orbit-item" />
+            </div>
           </div>
         </div>
       </div>

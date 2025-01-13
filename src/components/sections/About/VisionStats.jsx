@@ -7,24 +7,18 @@ const VisionStats = () => {
   const { title, description, image, video } = sectionData.visionstats;
 
   return (
-    <section className="Stats">
+    <section className="Stats" style={{
+      backgroundImage: `url(${image})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "500px",
+      paddingTop: "80px",
+      paddingBottom: "150px",
+      marginTop:'50px'
+    }}>
       <div className="container">
         <div className="row gy-md-0 gy-4">
-          {" "}
-          <div className="col-md-6">
-            {/* <figure data-aos="zoom-in-up">
-              <img className="w-100" src={image} alt="Stats" />
-            </figure> */}
-            <video
-              src={video} // Replace with your video file path
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="background-video"
-            />
-          </div>
-          <div className="col-md-6">
+
             <div>
               <div className="text-md-start text-center" data-aos="fade-up">
                 <h2>{title}</h2>
@@ -38,7 +32,7 @@ const VisionStats = () => {
             </div>
           </div>{" "}
         </div>
-      </div>
+   
     </section>
   );
 };

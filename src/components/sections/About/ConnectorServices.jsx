@@ -19,13 +19,13 @@ const ConnectorServices = () => {
                   </p>
                 ))}
               </div>
-              <div className="d-flex align-items-center pt-4 mt-lg-2 justify-content-md-start justify-content-center">
+              {/* <div className="d-flex align-items-center pt-4 mt-lg-2 justify-content-md-start justify-content-center">
                 <div>
                   <Link className="hover1" to={"/gamingpe/features"}>
                     Get the Card
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-6 col-md-6">

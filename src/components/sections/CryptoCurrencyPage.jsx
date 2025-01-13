@@ -48,20 +48,20 @@ const CryptoCurrencyPage = () => {
                   cost-effective.
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <Link className="hover1" to={"/gamingpe/pricing"}>
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-6">
             <figure
-              className="position-relative d-flex justify-content-center align-items-center"
+              className="position-relative d-flex justify-content-center align-items-center CryptoCurrency"
               data-aos="zoom-in-up"
             >
-              <img src={image} alt="pricing_Img" />
-            </figure>
+              <img src={image} alt="pricing_Img" data-aos="zoom-in-up"  style={{width: "100%"}}/>
+            </figure> 
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ import {
 } from "../../mockData/servicesData";
 
 const Services = () => {
-  const { title, description, image } = sectionData.services;
+  const { title, description, image, image2 } = sectionData.services;
 
   const iconComponents = {
     RiYoutubeFill: <RiYoutubeFill />,
@@ -49,47 +49,22 @@ const Services = () => {
                     Learn More
                   </Link>
                 </div>
-                <div>
+                {/* <div>
                   <Link to={"/gamingpe/features"} className="hover2">
                     Register Now <RiArrowRightSLine />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="position-relative">
               <figure className="d-flex justify-content-center position-relative">
-                <img src={image} alt="ServicesImg" data-aos="zoom-in-up"/>
+                <img src={image} alt="ServicesImg" data-aos="zoom-in-up" />
               </figure>
               <div className="position-absolute" data-aos="flip-left">
                 <div className="d-flex flex-column gap-3">
-                  {socialMediaTransactions.map((transaction, index) => (
-                    <div
-                      className="d-flex justify-content-between align-items-center gap-lg-5 gap-4"
-                      key={index}
-                    >
-                      <div className="d-flex gap-2">
-                        <figure className="d-flex justify-content-center align-items-center rounded-circle">
-                          {iconComponents[transaction.icon]}
-                        </figure>
-                        <div>
-                          <h6>{transaction.title}</h6>
-                          <p>{transaction.date}</p>
-                        </div>
-                      </div>
-                      <p
-                        className="p-0"
-                        style={{
-                          color: transaction.amount.startsWith("+")
-                            ? "#07C86B"
-                            : "#FF5E84",
-                        }}
-                      >
-                        {transaction.amount}
-                      </p>
-                    </div>
-                  ))}
+                    <img src={image2} alt="ServicesImg" data-aos="zoom-in-up" style={{borderRadius: "12px"}} />
                 </div>
               </div>
             </div>

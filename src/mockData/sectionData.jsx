@@ -4,11 +4,13 @@ import aboutImg1 from "../assets/images/index/aboutImg_1.webp";
 import aboutImg2 from "../assets/images/index/aboutImg_2.webp";
 import processImg from "../assets/images/index/processImg.webp";
 import servicesImg from "../assets/images/index/servicesImg.webp";
+import gamingpeLogo from "../assets/images/index/logo.svg";
 import servicesImg2 from "../assets/images/index/servicesImg2.webp";
-import visa_Banner from "../assets/images/index/gamingPE_banner.png";
+import servicesImg3 from "../assets/images/index/chat.png";
+import visa_Banner from "../assets/images/index/aboutBanner.png";
 import visaCard from "../assets/images/index/visaCard.webp";
-import pricingImg from "../assets/images/index/pricing_Img.webp";
-import StatsImg from "../assets/images/index/Stats_Img.webp";
+import pricingImg from "../assets/images/index/pricing_Img.svg";
+import StatsImg from "../assets/images/index/Stats_Img.svg";
 import globe from "../assets/images/index/globe.mp4";
 import FeaturesHeroImg from "../assets/images/index/featuresHero_Img.webp";
 import coreFeaturesImg from "../assets/images/index/coreFeatures.webp";
@@ -86,14 +88,15 @@ export const sectionData = {
     title: "Simple payment gateway process",
     description:
       "GamingPe offers a seamless payment gateway with straightforward steps. Users can easily select their preferred payment method, enter details securely, and confirm their purchase. The process is quick, with minimal clicks, ensuring an effortless transaction experience while maintaining top-notch security throughout.",
-      imagembl: processImg,
-    cards:{card1,card2,card3,card4,card5}
+    imagembl: processImg,
+    cards: { card1, card2, card3, card4, card5 },
   },
   services: {
     title: "Insightful Data Rich Analytics",
     description:
       "Leverage real-time insights to understand payment trends, optimize strategies, and drive growth in emerging markets with GamingPe's data-driven platform.",
     image: servicesImg2,
+    image2: servicesImg3,
   },
   visa: {
     title: "Just One API Easy Integration",
@@ -105,7 +108,7 @@ export const sectionData = {
       banner: visa_Banner,
       card: visaCard,
     },
-    cards:{card1,card2,card3,card4,card5},
+    cards: { card1, card2, card3, card4, card5 },
     integrations: {
       count: "100+",
       text: "Global Payment Providers",
@@ -121,14 +124,12 @@ export const sectionData = {
   },
   api_integration: {
     title: "Just One API Integration",
-    description:
-      "Streamline Your Payment Integration with a API",
+    description: "Streamline Your Payment Integration with a API",
     image: pricingImg,
   },
   cryptocurrency: {
     title: "Integrating Cryptocurrency Payments",
-    description:
-      "Enable secure, global crypto payments with Gamingpe.",
+    description: "Enable secure, global crypto payments with Gamingpe.",
     image: cryptopageimg,
   },
   testimonials: {
@@ -152,19 +153,38 @@ export const sectionData = {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry when an unknown printer took a galley of type and scrambled.",
   },
   aboutServices: {
-    title: "Financial Goals are Our Priority",
-    description: [
-      "Gamingpe, founded in 2014 by experts in payment processing, gateway technology, and risk management, is dedicated to revolutionizing digital payments. Our mission is to provide cutting-edge payment solutions that simplify operations, enhance payment experiences, and protect merchant revenue. With a focus on global card acquisition, digital payments, and AI-driven risk management, Gamingpe enables businesses to overcome traditional barriers and expand internationally.",
-    ],
+    heading: "Gamingpe's Principles",
+    title: "Innovation",
+    description:
+      "Leading the Future of Digital Payments Our relentless pursuit of groundbreaking technology and advanced solutions ensures we stay ahead in the rapidly evolving world of ecommerce payments.",
+    title2: "Accessibility",
+    description2:
+      "Empowering Merchants and Consumers Globally We provide seamless, flexible payment options that are accessible to everyone, enabling merchants to reach new markets and consumers to enjoy smooth, secure transactions.",
+    title3: "Expertise",
+    description3:
+      "Delivering Unmatched Payment Strategies With our deep industry knowledge and commitment to excellence, we offer bespoke solutions that enhance the payment experience and protect merchants' revenue.",
+    comonDesc:
+      "These pillars reflect Gamingpe’s dedication to innovation, inclusivity, and expert guidance in the digital payment landscape. How do these align with your vision? If you'd like any further adjustments, feel free to let me know!",
     image: servicesImg,
+  },
+  aboutFlexibility:{
+    title: "Harnessing the Power of AI for Seamless Payment Solutions",
+    description:
+      "At Gamingpe, we leverage the cutting-edge capabilities of AI to connect consumers with a diverse range of ecommerce merchants, catering to individual passions and preferences.",
+    title2: "Flexible, Interest-Free Payments and Personalized Controls",
+    description2:
+      "Our commitment to innovation ensures that users enjoy flexible, interest-free payment options and personalized controls, empowering them to manage their finances effortlessly while pursuing their passions.",
+    title3: "Empowering Merchants for Enhanced Access and Growth",
+    description3:
+      "By partnering with Gamingpe, merchants can expand their reach and offer more choices to consumers. This collaboration leads to increased sales, driven by a new generation of empowered customers who appreciate the seamless and secure payment experience we provide.",
   },
   ourVision: {
     title: "A Team of Innovators",
     description: [
       "The founders realized that in order to be successful in existing as well as emerging ecommerce markets an excellent client journey was paramount. Gamingpe was designed from the ground up to offer market changing innovative features and technology. Gamingpe created a team of innovators, technologists and payments enthusiasts who were focused on their mission to bridge the gaps between technology, intelligence and payments.",
-      "Gamingpe's mission is ensuring our merchants along with their customers receive the best seamless customer experience that maximizes sales, profits, client retention. Our vision is to become a global payment connector Brand known for its diversity of localized payment options within emerging markets countries."
+      "Gamingpe's mission is ensuring our merchants along with their customers receive the best seamless customer experience that maximizes sales, profits, client retention. Our vision is to become a global payment connector Brand known for its diversity of localized payment options within emerging markets countries.",
     ],
-    image: servicesImg,
+    image: gamingpeLogo,
   },
   connectorServices: {
     title: "Connector Technology Services",
@@ -183,17 +203,17 @@ export const sectionData = {
     description:
       "GamingPe is a global platform, connecting gamers from every corner of the world. No matter where you're located, our seamless services ensure you enjoy a top-notch gaming experience. With regional servers and localized support, GamingPe bridges the gap, bringing a unified and vibrant community together across continents.",
     image: StatsImg,
-    video:globe,
+    video: globe,
   },
   visionstats: {
     title: "Our Overview",
-    description:[
+    description: [
       "GamingPE was founded in 2015 by industry veterans with deep expertise in payments technology and cybersecurity. Born from a vision to revolutionize global payments, GamingPE is not just about transactions—it's about transforming experiences.",
       "We are pioneering the future of payments with our cutting-edge alternative global payment connector, setting new benchmarks in market-leading payment technology. Harnessing the power of AI and leveraging the latest innovations, we ensure seamless and secure transactions across the globe.",
-      "At GamingPE, we are committed to pushing the boundaries of what's possible. Our solutions are designed to adapt and evolve, meeting the dynamic needs of the gaming industry and beyond. We empower businesses to thrive in an ever-changing digital landscape, providing them with the tools and technologies to stay ahead. Join us on our journey as we continue to innovate and redefine the world of payments, one transaction at a time."
+      "At GamingPE, we are committed to pushing the boundaries of what's possible. Our solutions are designed to adapt and evolve, meeting the dynamic needs of the gaming industry and beyond. We empower businesses to thrive in an ever-changing digital landscape, providing them with the tools and technologies to stay ahead. Join us on our journey as we continue to innovate and redefine the world of payments, one transaction at a time.",
     ],
     image: StatsImg,
-    video:globe,
+    video: globe,
   },
   team: {
     title: "Who’s behind",
@@ -202,7 +222,8 @@ export const sectionData = {
   },
   featuresHero: {
     image: FeaturesHeroImg,
-    videoUrl: "https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13",
+    videoUrl:
+      "https://drive.google.com/file/d/1LfD5yQDLy92YRXgH_kXSOs2aYAYBt5Is/view?usp=sharing ",
   },
   coreFeatures: {
     title: "Core Features",
@@ -215,8 +236,7 @@ export const sectionData = {
 export const subPageHeroData = {
   about: {
     title: "ABOUT US",
-    description:
-      "Make Gaming Transactions Easy",
+    description: "Make Gaming Transactions Easy",
   },
   ourvision: {
     title: "OUR VISION",
