@@ -1,9 +1,9 @@
 version: 0.2
 
-env:
-  variables:
-    REPOSITORY_URI: "376129854991.dkr.ecr.ap-south-1.amazonaws.com/gamingpe-website"  # Replace with your repository URI
-    AWS_DEFAULT_REGION: "ap-south-1"  # Define the region you are using
+# env:
+#   variables:
+#     REPOSITORY_URI: ""  # Replace with your repository URI
+#     AWS_DEFAULT_REGION: ""  # Define the region you are using
 
 phases:
   install:
