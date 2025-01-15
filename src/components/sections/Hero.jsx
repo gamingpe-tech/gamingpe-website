@@ -1,7 +1,7 @@
 import React from "react";
 import { sectionData } from "../../mockData/sectionData";
 import { Link } from "react-router-dom";
-import HomeWMap from "../../assets/images/index/homeWmap.mp4";
+import HomeWMap from "./homeWmap.mp4";
 import Flag from "react-world-flags"; // Import the flag component
 import "aos/dist/aos.css"; // Import AOS styles
 import AOS from "aos";

@@ -1531,8 +1531,8 @@ header .search-button:hover {
     content: "";
     position: absolute;
     top: 20%;
-    left: 53px;
-    width: 100%;
+    left: 63px;
+    width: 94%;
     height: 101.4%;
     z-index: -1;
     background: url("../images/bg/services-bg.webp") center center / cover no-repeat;

@@ -884,8 +884,8 @@
     }
 
     .Services figure.position-relative::before {
-        left: 79px;
-        width: 100%;
+        left: 90px;
+        width: 90%;
         height: 98%;
     }
 
@@ -910,14 +910,15 @@
     }
 
     .Services figure.position-relative::before{
-        left: 96px;
-        width: 100%;
+        left: 82px;
+        width: 85%;
         height: 98%;
         top: 30%;
     }
 
     .Services .chatBotVideo{
-        width: 64%;
+        width: 56%;
+        left: 141px;
     }
 
     .Services .position-absolute{
@@ -925,7 +926,7 @@
     }
 
     .Services figure.position-relative img {
-        width: 51%;
+        width: 46%;
         margin: 130px 22px 0px 137px;
     }
 
@@ -961,7 +962,7 @@
     }
     .Services figure.position-relative::before{
         left: 96px;
-        width: 100%;
+        width: 80%;
         height: 98%;
         top: 18%;
     }
@@ -981,6 +982,18 @@
 
     .AboutServices .text-center p {
         padding: 15px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .Services figure.position-relative::before{
+        left: 78px;
+        width: 80%;
+        height: 98%;
+        top: 18%;
+    }
+
+    .Services .position-absolute{
+        left: 120px;
     }
 }
 
@@ -1011,13 +1024,13 @@
     }
 
     .Services .chatBotVideo{
-        width: 39%;
+        width: 52%;
     }
 
     .Services figure.position-relative img{
-        width: 35%;
+        width: 50%;
         position: relative;
-        left: -14%;
+        left: -8%;
     }
 
     .Services figure.position-relative::before{
@@ -1043,7 +1056,7 @@
 
 @media screen and (max-width: 620px) {
     .Services figure.position-relative img{
-        width: 30%;
+        width: 45%;
     }
     .Services figure.position-relative::before{
         width: 72%;
@@ -1075,12 +1088,24 @@
         padding: 10px 0px 0px 0px;
     }
     .Services .chatBotVideo{
-        left: 24%;
-        width: 50%;
+        left: 13%;
+        width: 73%;
 
     }
     .Services figure.position-relative::before{
-        top: 16%;
+        top: 22%;
+        left: 28px;
+    }
+
+    .Services figure.position-relative::before{
+        width: 92%;
+    }
+    .Services figure.position-relative img{
+        width: 74%;
+    }
+
+    .Services figure.position-relative img{
+        margin: 29px 22px 0px 137px;
     }
 }
 
@@ -1100,10 +1125,10 @@
     .Services .position-absolute {
         position: absolute !important;
         bottom: 10px;
-        left: 53px;
+        left: 30px;
     }
     .Services .chatBotVideo{
-        width: 68%;
+        width: 80%;
     }
     .Services figure.position-relative::before{
         top: -5%;
@@ -1111,6 +1136,10 @@
     }
     .Services figure.position-relative::before{
         width: 98%;
+    }
+    .Services figure.position-relative img{
+        width: 73%;
+        margin:175px 22px 0px 137px ;
     }
 }
 
@@ -1122,10 +1151,14 @@
     .Services .position-absolute{
         position: absolute !important;
         bottom: 10px;
-        left: 26px;
+        left: 20px;
     }
     .Services .chatBotVideo{
-        width: 80%;
+        width: 86%;
+    }
+    .Services figure.position-relative img{
+        width: 69%;
+        margin:175px 22px 0px 137px ;
     }
 }
 
@@ -1161,7 +1194,7 @@
 
 @media screen and (max-width: 991px) {
     .Visa {
-        padding: 70px 0px 0px;
+        padding: 70px 0px 70px;
     }
 
     .Visa p {
@@ -1218,7 +1251,7 @@
 
 @media screen and (max-width: 480px) {
     .Visa {
-        padding: 145px 0px 0px;
+        padding: 189px 0px 0px;
     }
 
     .Visa .row {
@@ -2306,11 +2339,11 @@
       }
 
       .orbit-item .flag{
-        width: 22%;
+        width: 20% !important;
       }
 
       .orbit-item .name{
-        font-size: 16px;
+        font-size: 14px !important;
       }
 
       @keyframes orbitAnimation {
@@ -2350,13 +2383,17 @@
         left: 47%;
         right: 45%;
         bottom: 45%;
-        width: 550px; /* Adjust orbit diameter */
-        height: 550px; /* Adjust orbit diameter */
-        transform: translate(-50%, -50%);
+        width: 380px; /* Adjust orbit diameter */
+        height: 380px; /* Adjust orbit diameter */
+        transform: translate(-55%, -53%);
         border-radius: 50%;
         z-index: 2;
         pointer-events: none;
         /* background: #0056b3; */
+      }
+
+      .background-video-stats{
+        height: 60%;
       }
       
       .orbit-item {
@@ -2421,19 +2458,19 @@
       }
 
       .orbit-item .flag{
-        width: 22%;
+        width: 20% !important;
       }
 
       .orbit-item .name{
-        font-size: 16px;
+        font-size: 14px !important;
       }
 
       @keyframes orbitAnimation {
         0% {
-          transform: rotate(0deg) translateX(170px) rotate(0deg);
+          transform: rotate(0deg) translateX(160px) rotate(0deg);
         }
         100% {
-          transform: rotate(360deg) translateX(170px) rotate(-360deg);
+          transform: rotate(360deg) translateX(160px) rotate(-360deg);
         }
       }
 }
@@ -2637,10 +2674,27 @@
 
       @keyframes orbitAnimation {
         0% {
-          transform: rotate(0deg) translateX(155px) rotate(0deg);
+          transform: rotate(0deg) translateX(170px) rotate(0deg);
         }
         100% {
-          transform: rotate(360deg) translateX(156px) rotate(-360deg);
+          transform: rotate(360deg) translateX(170px) rotate(-360deg);
+        }
+      }
+}
+
+@media screen and (max-width: 658px) {
+
+    .QuestionFAQ .text-center h4,
+    .QuestionFAQ .text-center p {
+        width: 100%;
+    }
+
+    @keyframes orbitAnimation {
+        0% {
+          transform: rotate(0deg) translateX(150px) rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg) translateX(160px) rotate(-360deg);
         }
       }
 }
@@ -2661,9 +2715,9 @@
         left: 49%;
         right: 45%;
         bottom: 45%;
-        width: 550px; /* Adjust orbit diameter */
-        height: 550px; /* Adjust orbit diameter */
-        transform: translate(-50%, -50%);
+        width: 474px; /* Adjust orbit diameter */
+        height: 474px; /* Adjust orbit diameter */
+        transform: translate(-50%, -51%);
         border-radius: 50%;
         z-index: 2;
         pointer-events: none;
@@ -2741,21 +2795,19 @@
 
       @keyframes orbitAnimation {
         0% {
-          transform: rotate(0deg) translateX(150px) rotate(0deg);
+          transform: rotate(0deg) translateX(130px) rotate(0deg);
         }
         100% {
-          transform: rotate(360deg) translateX(150px) rotate(-360deg);
+          transform: rotate(360deg) translateX(130px) rotate(-360deg);
         }
+      }
+
+      .subscribe-form{
+        padding:0px 21px !important
       }
 }
 
-@media screen and (max-width: 658px) {
 
-    .QuestionFAQ .text-center h4,
-    .QuestionFAQ .text-center p {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 480px) {
     .Stats {
@@ -3208,6 +3260,9 @@
 
     .CoreFeatures .mx-auto p {
         width: 95%;
+    }
+    .CoreFeatures img {
+        width: 80%;
     }
 }
 
