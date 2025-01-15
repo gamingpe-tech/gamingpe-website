@@ -1,8 +1,8 @@
 export const menuItems = [
     { path: "/gamingpe/home", label: "Home" },
-    { path: "/gamingpe/about", label: "About us" },
     { path: "/gamingpe/features", label: "Features" },
     { path: "/gamingpe/technicalconnector", label: "Technical Connector"},
+    { path: "/gamingpe/about", label: "About us" },
     {
       label: "Others",
       dropdown: [

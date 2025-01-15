@@ -20,6 +20,7 @@ import card3 from "../assets/images/index/card3.svg";
 import card4 from "../assets/images/index/card4.svg";
 import card5 from "../assets/images/index/card5.svg";
 import cryptopageimg from "../assets/images/index/cryptopageimg.png";
+import connector_img from "../assets/images/index/connector_img.webp";
 
 export const sectionData = {
   hero: {
@@ -191,7 +192,7 @@ export const sectionData = {
     description: [
       "Welcome to Connector Technology Services, your trusted partner in payment solutions. We provide seamless and secure transaction processing to enhance business operations. Experience reliable service tailored to meet your specific needs, ensuring your enjoy a hassle-free payment. Let us help you connect to the future of payments.",
     ],
-    image: servicesImg,
+    image: connector_img,
   },
   simplicity: {
     title: "Replacing Complexity With Simplicity",

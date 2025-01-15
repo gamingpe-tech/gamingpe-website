@@ -21,7 +21,7 @@ const About = () => {
                     Learn More
                   </Link>
                 </div>
-                <div>
+                {/* <div>
                   <Link
                     className="d-flex gap-lg-2 gap-1 align-items-center"
                     data-bs-toggle="modal"
@@ -29,7 +29,7 @@ const About = () => {
                   >
                     <RiPlayLine size={20} /> Watch Video
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

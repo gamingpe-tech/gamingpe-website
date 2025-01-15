@@ -6,7 +6,7 @@ const OurVisionPage = () => {
   const { title, description, image } = sectionData.ourVision;
 
   return (
-    <section className="Services AboutServices OurVision">
+    <section className=" AboutServices OurVision">
       <div className="container">
         <div className="row gy-md-0 gy-5">
           <div className="col-lg-6 col-md-6">

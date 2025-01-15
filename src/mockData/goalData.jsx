@@ -30,11 +30,11 @@ export const goalData = [
     img: fraudicons4,
     title: "Data Encryption",
     description: "Encrypt sensitive data, such as personal information and payment details, to protect it from unauthorized access and cyberattacks.",
-  },
-
-  {
-    img: fraudicons2,
-    title: "Anti-Money Laundering (AML)",
-    description: "Compliance: Implement AML measures to detect and prevent money laundering activities within the platform. This includes monitoring for large transactions and unusual financial activities",
   }
+
+  // {
+  //   img: fraudicons2,
+  //   title: "Anti-Money Laundering (AML)",
+  //   description: "Compliance: Implement AML measures to detect and prevent money laundering activities within the platform. This includes monitoring for large transactions and unusual financial activities",
+  // }
 ];

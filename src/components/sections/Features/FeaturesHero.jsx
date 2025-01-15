@@ -17,7 +17,7 @@ const FeaturesHero = () => {
               data-aos="zoom-in-up"
             />
           </figure>
-          <div className="position-absolute d-flex justify-content-center align-items-center">
+          {/* <div className="position-absolute d-flex justify-content-center align-items-center">
             <a>
               <RiPlayFill
                 className="d-flex justify-content-center align-items-center"
@@ -25,7 +25,7 @@ const FeaturesHero = () => {
                 data-bs-target="#staticBackdropVideo"
               />
             </a>
-          </div>
+          </div> */}
         </div>
         <div
           className="modal fade"

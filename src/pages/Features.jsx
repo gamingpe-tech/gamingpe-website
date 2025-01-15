@@ -21,7 +21,10 @@ const Features = () => {
       </div>
       <Services />
       <Visa />
+      <div style={{padding:'100px 0px'}}>
+
       <CoreFeatures />
+      </div>
       <div className="two_section_bg">
         <NewsLetter />
         <Footer />

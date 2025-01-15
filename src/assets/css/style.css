@@ -930,6 +930,15 @@ header .search-button:hover {
     object-fit: cover; /* Ensures the video covers the container */
   }
   
+  .background-video-stats{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the container */
+  }
   .content-container {
     /* position: absolute; */
     z-index: 2; /* Ensures it appears above the video */
@@ -940,50 +949,66 @@ header .search-button:hover {
     /* left: 50%; Center content horizontally */
     /* transform: translate(-50%, -50%); */
   }
+
+  .hero-countries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .flags-container{
+    visibility: hidden;
+  }
+
+  .subscribe-form{
+    padding: 100px 400px !important;
+  }
   
-  @media (max-width: 931px) {
+  /* @media (max-width: 931px) {
     .Hero {
-      height: auto; /* Let the section height grow with content */
+      height: auto; 
     }
   
     .video-container {
-      position: static; /* Video moves below the content */
-      height: auto; /* Let the video height adjust dynamically */
-      margin-top: 20px; /* Add spacing below content */
+      position: static; 
+      height: auto; 
+      margin-top: 20px; 
     }
   
-    .background-video {
+    .background-video-hero {
       position: static;
       top: 0;
       left: 0;
       transform: none;
       width: 100%;
       height: auto;
-      object-fit: contain; /* Adjust the video to fit within its container */
+      object-fit: contain; 
     }
   
     .content-container {
-      position: static; /* Content stacks above the video */
+      position: static;
       top: 0;
       left: 0;
       transform: none;
       text-align: center;
       padding: 20px;
     }
-  }
+  } */
   
   
-  /* Additional responsiveness for very small screens (e.g., <600px) */
-  @media (max-width: 600px) {
+
+  /* @media (max-width: 600px) {
     .content-container {
       padding: 15px;
-      font-size: 14px; /* Reduce font size for smaller screens */
+      font-size: 14px;
     }
   
-    .background-video {
-      height: 200px; /* Limit the height of the video for small devices */
+    .background-video-hero {
+      height: 200px; 
     }
-  }
+  } */
   
   
   /* Keyframes for Animation */
@@ -1121,6 +1146,11 @@ header .search-button:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+}
+
+.About {
+    position: relative !important;
+    z-index: 1000 !important;
 }
 
 /*
@@ -1493,14 +1523,14 @@ header .search-button:hover {
 }
 
 .Services figure.position-relative img {
-    width: 57%;
+    width: 50%;
     border-bottom-right-radius: 31%;
 }
 
 .Services figure.position-relative::before {
     content: "";
     position: absolute;
-    top: 0%;
+    top: 20%;
     left: 53px;
     width: 100%;
     height: 101.4%;
@@ -1513,11 +1543,16 @@ header .search-button:hover {
     border: 1px solid #2D6A77;
     border-radius: 25px;
     background: #141B18;
-    padding: 30px 25px;
-    bottom: -90px;
+    padding: 18px 18px;
+    bottom: -200px;
     z-index: 100;
     left: 70px;
     width: 51%;
+}
+
+.Services .chatBotVideo{
+    left: 161px;
+    width: 50%;
 }
 
 .Services .position-absolute .justify-content-between figure {
@@ -1547,6 +1582,111 @@ header .search-button:hover {
     color: #07C86B;
 }
 
+.AboutServices h2 {
+    background: linear-gradient(99.32deg, #B7CEA6 14.4%, #ECFBFE 32.69%, #FCFEF5 48.66%, #C0D4C9 63.86%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 90%;
+    text-transform: uppercase;
+}
+
+.AboutServices p,
+.AboutServices h5 {
+    color: #E4E4E4;
+}
+
+.AboutServices p {
+    font-size: 14px;
+}
+
+.AboutServices .text-center p {
+    padding: 15px 93px 35px 0px;
+}
+
+.AboutServices .ServicesCard {
+    padding: 25px;
+    border: 1px solid #2D6A77;
+    background: #082D40A8;
+    border-radius: 12px;
+}
+
+.AboutServices .ServicesCard:hover {
+    background: #031521;
+}
+
+.AboutServices .ServicesCard h5 {
+    padding: 0px 0px 12px;
+}
+
+.AboutServices .ServicesCard p {
+    width: 90%;
+}
+
+.AboutServices figure.position-relative {
+    z-index: 2;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.AboutServices figure.position-relative img {
+    width: 57%;
+    border-bottom-right-radius: 31%;
+}
+
+.AboutServices figure.position-relative::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 53px;
+    width: 100%;
+    height: 101.4%;
+    z-index: -1;
+    background: url("../images/bg/services-bg.webp") center center / cover no-repeat;
+    background-size: 100% 100%;
+}
+
+.AboutServices .position-absolute {
+    border: 1px solid #2D6A77;
+    border-radius: 25px;
+    background: #141B18;
+    padding: 30px 25px;
+    bottom: -200px;
+    z-index: 100;
+    left: 70px;
+    width: 51%;
+}
+
+.AboutServices .chatBotVideo{
+    left: 161px;
+    width: 50%;
+}
+
+.AboutServices .position-absolute .justify-content-between figure {
+    width: 45px;
+    height: 45px;
+    background-color: #FF427B;
+    color: #ffffff;
+}
+
+.AboutServices .position-absolute .justify-content-between:nth-child(even) figure {
+    background-color: #42A4FF;
+}
+
+.AboutServices .justify-content-between h6 {
+    color: #FFFFFF;
+}
+
+.AboutServices .justify-content-between .d-flex p {
+    color: #CCCDCC;
+}
+
+.AboutServices .justify-content-between .p-0 {
+    color: #FF5E84;
+}
+
+.AboutServices .justify-content-between p {
+    color: #07C86B;
+}
+
 .AboutServices figure.position-relative img {
     position: relative;
     left: -52px;
@@ -1571,7 +1711,7 @@ header .search-button:hover {
 }
 
 .Visa img {
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
 .Visa h3{
@@ -1619,8 +1759,8 @@ header .search-button:hover {
 }
 
 .Visa .slick-slider img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 .Visa .m-0 {
@@ -2241,7 +2381,7 @@ footer .py-2 p {
     position: relative;
   }
   
-  .background-video {
+  .background-video-hero {
     width: 100%;
     /* border-radius: 50%; */
     z-index: 1;
@@ -2263,67 +2403,92 @@ footer .py-2 p {
     /* background: #0056b3; */
   }
   
-  .orbit-item {
+/* Set initial opacity to 0 and visibility to hidden for all items */
+/* Set all items initially hidden */
+.orbit-item {
     position: absolute;
-    width: 100px; /* Adjust size of SVG images */
+    width: 100px; /* Adjust size of flags and country text */
     height: 100px;
-    animation: orbitAnimation 10s linear infinite;
+    opacity: 0; /* Hide initially */
+    visibility: hidden; /* Ensure everything is hidden initially */
+    animation: orbitAnimation 20s linear infinite;
+    transition: opacity 0.5s ease-in-out, visibility 0s ease-in-out;
   }
   
+  /* Use animation delay to show items after delay */
   .orbit-item:nth-child(1) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
     animation-delay: 0s;
+    opacity: 1;
+    visibility: visible; /* Show after delay */
   }
   
   .orbit-item:nth-child(2) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 1.3s;
+    /* animation-delay: 0.5s; */
+    opacity: 1;  
+    visibility: visible;
   }
   
   .orbit-item:nth-child(3) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 2.5s;
+    /* animation-delay: 1s; */
+    opacity: 1;
+    visibility: visible;
   }
   
   .orbit-item:nth-child(4) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 3.7s;
+    /* animation-delay: 1.5s; */
+    opacity: 1;
+    visibility: visible;
   }
   
   .orbit-item:nth-child(5) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 4.9s;
+    /* animation-delay: 2s; */
+    opacity: 1;
+    visibility: visible;
   }
   
   .orbit-item:nth-child(6) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 6.1s;
+    /* animation-delay: 2.5s; */
+    opacity: 1;
+    visibility: visible;
   }
+  
   .orbit-item:nth-child(7) {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    animation-delay: 7.3s;
-  } 
-   .orbit-item:nth-child(8) {
-    top:45%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    animation-delay: 8.5s;
+    /* animation-delay: 3s; */
+    opacity: 1;
+    visibility: visible;
   }
   
+  .orbit-item:nth-child(8) {
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    /* animation-delay: 3.5s; */
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* The keyframe for the orbiting animation */
   @keyframes orbitAnimation {
     0% {
       transform: rotate(0deg) translateX(300px) rotate(0deg);
@@ -2332,6 +2497,8 @@ footer .py-2 p {
       transform: rotate(360deg) translateX(300px) rotate(-360deg);
     }
   }
+  
+  
   
   
 .Stats {

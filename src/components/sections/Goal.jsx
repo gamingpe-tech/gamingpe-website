@@ -14,7 +14,7 @@ const Goal = () => {
         </div>
         <div className="row  gy-md-0 gy-4" style={{paddingTop: "8rem"}}>
           {goalData.map((goal, index) => (
-            <div className="col-md-4" key={index} style={{marginBottom: "6rem"}}>
+            <div className="col-md-6" key={index} style={{marginBottom: "6rem"}}>
               <GoalCard
                 img={goal.img}
                 title={goal.title}

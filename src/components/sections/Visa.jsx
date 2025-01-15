@@ -47,7 +47,7 @@ const Visa = () => {
               <p className="m-0">{integrations.description}</p>
               <div className="position-relative">
                 <figure className="position-absolute" data-aos="flip-left" data-aos-delay="500"> 
-                  <img className="w-100" src={images.card} alt="visaCard" />
+                  <img className="w-100" src={images.card} alt="visaCard" style={{borderRadius:"25px"}}/>
                 </figure>
               </div>
             </div>

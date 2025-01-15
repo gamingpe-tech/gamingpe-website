@@ -26,7 +26,7 @@ const AboutServices = () => {
   }, []);
 
   return (
-    <section className="Services AboutServices">
+    <section className="AboutServices">
       <div className="container">
         <div className="row gy-md-0 gy-5">
           <div className="col-lg-6 col-md-6">
@@ -79,11 +79,11 @@ const AboutServices = () => {
               </figure>
             </div>
           </div>
-          <div style={{ marginTop: "4rem" }}>
+          {/* <div style={{ marginTop: "4rem" }}>
             <h4 style={{ color: "#cfffd2" }} data-aos="fade-up">
               {comonDesc}
             </h4>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

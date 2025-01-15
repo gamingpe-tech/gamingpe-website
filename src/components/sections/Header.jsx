@@ -135,7 +135,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg container py-lg-4 py-3">
         <div className="container-fluid">
-          <NavLink className="nav-logo p-0" to="/gamingpe">
+          <NavLink className="nav-logo p-0" to="/">
             <figure>
               <img src={logo} alt="logo" />
             </figure>
@@ -192,11 +192,11 @@ const Header = () => {
                     )
                   )}
                 </ul>
-                <div className="search SearchModal" onClick={openModal}>
+                {/* <div className="search SearchModal" onClick={openModal}>
                   <a className="text-white px-3">
                     <RiSearchLine size={30} />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div>
                 <NavLink
