@@ -1707,7 +1707,7 @@ header .search-button:hover {
 */
 
 .Visa {
-    padding: 120px 0px 60px;
+    padding: 120px 0px 120px;
 }
 
 .Visa img {
@@ -1772,6 +1772,13 @@ header .search-button:hover {
 .Visa .position-absolute {
     width: 100%;
     top: 35px;
+}
+
+.slick-track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
 }
 
 /*
@@ -2629,7 +2636,7 @@ footer .py-2 p {
 .FeaturesHero .position-relative::before {
     content: "";
     position: absolute;
-    background: linear-gradient(180deg, #2589AC 0%, #DB9B1E 100%);
+    /* background: linear-gradient(180deg, #2589AC 0%, #DB9B1E 100%); */
     width: 40%;
     height: 79%;
     z-index: 0;

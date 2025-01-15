@@ -45,7 +45,7 @@ const APIIntegrationPage = () => {
                   By utilizing an easy-integrate REST API, companies can access
                   a variety of popular local payment options, ensuring they
                   align with regional preferences and boost customer
-                  satisfaction This not only speeds up the integration process
+                  satisfaction. This not only speeds up the integration process
                   but also simplifies ongoing maintenance, as all updates are
                   handled through the central API.
                 </p>

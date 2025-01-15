@@ -124,7 +124,7 @@ export const sectionData = {
   },
   api_integration: {
     title: "Just One API Integration",
-    description: "Streamline Your Payment Integration with a API",
+    description: "Streamline Your Payment Integration with an API",
     image: pricingImg,
   },
   cryptocurrency: {
@@ -156,7 +156,7 @@ export const sectionData = {
     heading: "Gamingpe's Principles",
     title: "Innovation",
     description:
-      "Leading the Future of Digital Payments Our relentless pursuit of groundbreaking technology and advanced solutions ensures we stay ahead in the rapidly evolving world of ecommerce payments.",
+      "Leading the Future of Digital Payments Our relentless pursuit of groundbreaking technology and advanced solutions ensures we stay ahead in the rapidly evolving world of e-commerce payments.",
     title2: "Accessibility",
     description2:
       "Empowering Merchants and Consumers Globally We provide seamless, flexible payment options that are accessible to everyone, enabling merchants to reach new markets and consumers to enjoy smooth, secure transactions.",
@@ -170,7 +170,7 @@ export const sectionData = {
   aboutFlexibility: {
     title: "Harnessing the Power of AI for Seamless Payment Solutions",
     description:
-      "At Gamingpe, we leverage the cutting-edge capabilities of AI to connect consumers with a diverse range of ecommerce merchants, catering to individual passions and preferences.",
+      "At Gamingpe, we leverage the cutting-edge capabilities of AI to connect consumers with a diverse range of e-commerce merchants, catering to individual passions and preferences.",
     title2: "Flexible, Interest-Free Payments and Personalized Controls",
     description2:
       "Our commitment to innovation ensures that users enjoy flexible, interest-free payment options and personalized controls, empowering them to manage their finances effortlessly while pursuing their passions.",
@@ -181,15 +181,15 @@ export const sectionData = {
   ourVision: {
     title: "A Team of Innovators",
     description: [
-      "The founders realized that in order to be successful in existing as well as emerging ecommerce markets an excellent client journey was paramount. Gamingpe was designed from the ground up to offer market changing innovative features and technology. Gamingpe created a team of innovators, technologists and payments enthusiasts who were focused on their mission to bridge the gaps between technology, intelligence and payments.",
-      "Gamingpe's mission is ensuring our merchants along with their customers receive the best seamless customer experience that maximizes sales, profits, client retention. Our vision is to become a global payment connector Brand known for its diversity of localized payment options within emerging markets countries.",
+      "The founders realized that in order to be successful in existing as well as emerging e-commerce markets an excellent client journey was paramount. Gamingpe was designed from the ground up to offer market changing innovative features and technology. Gamingpe created a team of innovators, technologists and payments enthusiasts who were focused on their mission to bridge the gaps between technology, intelligence and payments.",
+      "Gamingpe's mission is ensuring our merchants along with their customers receive the best seamless customer experience that maximizes sales, profits & client retention. Our vision is to become a global payment connector Brand known for its diversity of localized payment options within emerging markets countries.",
     ],
     image: gamingpeLogo,
   },
   connectorServices: {
     title: "Connector Technology Services",
     description: [
-      "Welcome to Connector Technology Services, your trusted partner in payment solutions. We provide seamless and secure transaction processing to enhance business operations. Experience reliable service tailored to meet your specific needs, ensuring your enjoy a hassle-free payment. Let us help you connect to the future of payments.",
+      "Welcome to Connector Technology Services, your trusted partner in payment solutions. We provide seamless and secure transaction processing to enhance business operations. Experience reliable service tailored to meet your specific needs, ensuring you enjoy a hassle-free payment. Let us help you connect to the future of payments.",
     ],
     image: connector_img,
   },

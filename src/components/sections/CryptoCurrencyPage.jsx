@@ -19,7 +19,7 @@ const CryptoCurrencyPage = () => {
               </div>
               <div className="d-flex flex-column gap-md-4 gap-3">
                 <p>
-                  Cryptocurrency payment integration with Gamingpe's is becoming
+                  Cryptocurrency payment integration with Gamingpe is becoming
                   increasingly popular as businesses seek to offer diverse
                   payment options and cater to tech-savvy customers. By
                   integrating cryptocurrency payments, companies can facilitate

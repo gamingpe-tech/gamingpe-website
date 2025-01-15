@@ -437,14 +437,14 @@
         font-size: 14px;
     }
     .hero-description{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
     .hero-description{
-        padding: 5px 30px 0px 0px !important;
+        padding: 14px 30px 0px 0px !important;
     }
     .hero-description2{
-        font-size: 13px;
-        padding: 0px 0px 0px 0px !important;
+        font-size: 11px;
+        padding: 10px 0px 0px 0px !important;
     }
 
     .Hero h1 {
@@ -577,7 +577,7 @@
 @media screen and (max-width: 767px) {
 
     .About{
-        margin-top: -80% !important;
+        margin-top: -68% !important;
     }
 
     .About .flex-column,
@@ -597,13 +597,13 @@
 
 @media screen and (max-width: 650px) {
     .About{
-        margin-top: -120% !important;
+        margin-top: -110% !important;
     }
 }
 
 @media screen and (max-width: 569px) {
     .About {
-       margin-top: -129% !important;
+       margin-top: -75% !important;
     }
 }
 
@@ -614,7 +614,7 @@
     }
 
     .About{
-        margin-top: -145% !important;
+        margin-top: -133% !important;
     }
 
     .About .border-1 .gap-2 {
@@ -1101,11 +1101,11 @@
         width: 92%;
     }
     .Services figure.position-relative img{
-        width: 74%;
+        width: 59%;
     }
 
     .Services figure.position-relative img{
-        margin: 29px 22px 0px 137px;
+        margin: 81px 22px 0px 137px;
     }
 }
 
@@ -2811,7 +2811,7 @@
 
 @media screen and (max-width: 480px) {
     .Stats {
-        padding: 0px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
     .Stats .StatsCard {
@@ -2832,9 +2832,9 @@
             left: 49%;
             right: 45%;
             bottom: 45%;
-            width: 550px; /* Adjust orbit diameter */
-            height: 550px; /* Adjust orbit diameter */
-            transform: translate(-50%, -50%);
+            width: 409px; /* Adjust orbit diameter */
+            height: 409px; /* Adjust orbit diameter */
+            transform: translate(-51%, -51%);
             border-radius: 50%;
             z-index: 2;
             pointer-events: none;
@@ -2903,19 +2903,19 @@
           }
 
           .orbit-item .flag{
-            width: 18%;
+            width: 16% !important;
           }
 
           .orbit-item .name{
-            font-size: 14px;
+            font-size: 12px !important;
           }
     
           @keyframes orbitAnimation {
             0% {
-              transform: rotate(0deg) translateX(120px) rotate(0deg);
+              transform: rotate(0deg) translateX(110px) rotate(0deg);
             }
             100% {
-              transform: rotate(360deg) translateX(120px) rotate(-360deg);
+              transform: rotate(360deg) translateX(110px) rotate(-360deg);
             }
           }
     
@@ -2945,9 +2945,9 @@
             left: 49%;
             right: 45%;
             bottom: 45%;
-            width: 550px; /* Adjust orbit diameter */
-            height: 550px; /* Adjust orbit diameter */
-            transform: translate(-50%, -50%);
+            width: 333px; /* Adjust orbit diameter */
+            height: 333px; /* Adjust orbit diameter */
+            transform: translate(-52%, -54%);
             border-radius: 50%;
             z-index: 2;
             pointer-events: none;
@@ -3016,19 +3016,19 @@
           }
 
           .orbit-item .flag{
-            width: 18%;
+            width: 16%;
           }
 
           .orbit-item .name{
-            font-size: 12px;
+            font-size: 10px;
           }
     
           @keyframes orbitAnimation {
             0% {
-              transform: rotate(0deg) translateX(110px) rotate(0deg);
+              transform: rotate(0deg) translateX(90px) rotate(0deg);
             }
             100% {
-              transform: rotate(360deg) translateX(110px) rotate(-360deg);
+              transform: rotate(360deg) translateX(90px) rotate(-360deg);
             }
           }
     

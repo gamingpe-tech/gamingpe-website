@@ -10,6 +10,7 @@ const NewsLetter = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const form = e.target;
     const formData = {
       firstName: e.target.firstName.value,
       lastName: e.target.lastName.value,
@@ -28,6 +29,7 @@ const NewsLetter = () => {
       )
       .then(
         (response) => {
+          form.reset();
           toast.success("Subscription successful!");
         },
         (error) => {

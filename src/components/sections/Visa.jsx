@@ -35,7 +35,7 @@ const Visa = () => {
                 {visaSliderImgs.map((logo, index) => (
                   <Link key={index}>
                     <figure className="d-flex justify-content-center">
-                      <img src={logo.src} alt={logo.alt} />
+                      <img src={logo.src} alt={logo.alt}  style={{width:logo.width || "50px",height:logo.height || "50px",objectFit: "contain",}}/>
                     </figure>
                   </Link>
                 ))}

@@ -7,10 +7,10 @@ import AOS from "aos";
 
 const countries = [
   { name: "India", code: "IN" },
-  { name: "Indonesia", code: "ID" },
   { name: "Egypt", code: "EG" },
-  { name: "Thailand", code: "TH" },
   { name: "Turkey", code: "TR" },
+  { name: "Thailand", code: "TH" },
+  { name: "Indonesia", code: "ID" },
   { name: "Vietnam", code: "VN" },
   { name: "Bangladesh", code: "BD" },
   { name: "Brazil", code: "BR" },
@@ -78,14 +78,14 @@ const Hero = () => {
                 code={country.code}
                 className="flag"
                 style={{
-                  width: "25px",
+                  width: "16px",
                   height: "40px",
                   borderRadius: "4px",
                 }}
               />
               <span
                 className="name"
-                style={{ color: "#fff", textAlign: "center", fontSize: "16px" }}
+                style={{ color: "#fff", textAlign: "center", fontSize: "14px" }}
               >
                 {country.name}
               </span>

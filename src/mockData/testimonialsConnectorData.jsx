@@ -18,7 +18,7 @@ export const testimonials = [
     img: SliderImg2,
     Comma: Comma,
     description:
-      "Gamingpe's is an Omni Channel connector with the functionality to connect merchants and processors to various local payment types without causing friction with the user experience and customer flow. This allows our merchants to grow a global business without having to worry about integrating to each local payment method per country.",
+      "Gamingpe is an Omni Channel connector with the functionality to connect merchants and processors to various local payment types without causing friction with the user experience and customer flow. This allows our merchants to grow a global business without having to worry about integrating to each local payment method per country.",
     // name: "Johnny Stone",
     name: "Omni Channel Connector",
     stars: 5,

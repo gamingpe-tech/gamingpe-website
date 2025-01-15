@@ -180,7 +180,7 @@ const Header = () => {
                           className={({ isActive }) =>
                             isActive ||
                             (item.path === "/gamingpe/home" &&
-                              location.pathname === "/gamingpe")
+                              location.pathname === "/")
                               ? "nav-link active"
                               : "nav-link"
                           }
@@ -251,7 +251,7 @@ const Header = () => {
                           className={({ isActive }) =>
                             isActive ||
                             (subItem.path === "/gamingpe/home" &&
-                              location.pathname === "/gamingpe")
+                              location.pathname === "/")
                               ? "active"
                               : ""
                           }
