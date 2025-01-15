@@ -19,7 +19,7 @@ export const goalData = [
   {
     img: fraudicons6,
     title: "Identity Verification",
-    description: "Use identity verification solutions to verify the age and identity of users, especially for age-restricted content. This helps prevent minors from accessing inappropriate content and reduces the risk of identity theft",
+    description: "Use identity verification solutions to verify the age and identity of users, especially for age-restricted content. This helps prevent minors from accessing inappropriate content and reduces the risk of identity theft.",
   },
   {
     img: fraudicons5,
