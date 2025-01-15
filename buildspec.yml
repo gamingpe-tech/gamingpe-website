@@ -11,7 +11,7 @@ phases:
       # Install Docker (optional if not already installed in the build environment)
       - echo Installing Docker
       - yum install -y docker
-      - docker login -u rizo4372 -pDMn9@.XLbyPy$SS
+      - docker login --username rizo4372 --password-stdin DMn9@.XLbyPy$SS
       # Authenticate Docker to your AWS ECR registry with debugging
       - echo Logging into Amazon ECR
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION --debug | docker login --username AWS --password-stdin $REPOSITORY_URI
