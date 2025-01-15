@@ -1,4 +1,3 @@
-import hero_Img from "../assets/images/index/hero_Img.webp";
 import getStarted from "../assets/images/icons/getStarted.svg";
 import aboutImg1 from "../assets/images/index/aboutImg_1.webp";
 import aboutImg2 from "../assets/images/index/aboutImg_2.webp";
@@ -12,7 +11,7 @@ import visaCard from "../assets/images/index/visaCard.webp";
 import pricingImg from "../assets/images/index/pricing_Img.svg";
 import StatsImg from "../assets/images/index/Stats_Img.svg";
 import globe from "../assets/images/index/globe.mp4";
-import FeaturesHeroImg from "../assets/images/index/featuresHero_Img.webp";
+import FeaturesHeroImg from "../assets/images/index/featuresHero_image.webp";
 import coreFeaturesImg from "../assets/images/index/coreFeatures.webp";
 import card1 from "../assets/images/index/card1.svg";
 import card2 from "../assets/images/index/card2.svg";
@@ -168,7 +167,7 @@ export const sectionData = {
       "These pillars reflect Gamingpe’s dedication to innovation, inclusivity, and expert guidance in the digital payment landscape. How do these align with your vision? If you'd like any further adjustments, feel free to let me know!",
     image: servicesImg,
   },
-  aboutFlexibility:{
+  aboutFlexibility: {
     title: "Harnessing the Power of AI for Seamless Payment Solutions",
     description:
       "At Gamingpe, we leverage the cutting-edge capabilities of AI to connect consumers with a diverse range of ecommerce merchants, catering to individual passions and preferences.",
