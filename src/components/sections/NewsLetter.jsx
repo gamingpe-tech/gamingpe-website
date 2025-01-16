@@ -1,13 +1,11 @@
-import { RiArrowDropLeftFill, RiCloseLine } from "@remixicon/react";
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import axios from "axios";
 import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
 
 const NewsLetter = () => {
   const closeAsideBtnRef = useRef(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const form = e.target;
@@ -16,26 +14,23 @@ const NewsLetter = () => {
       lastName: e.target.lastName.value,
       email: e.target.email.value,
       company: e.target.company.value,
-      phone: e.target.phone.value,
+      phoneNumber: e.target.phone.value,
       description: e.target.description.value,
     };
 
-    emailjs
-      .send(
-        "service_u0gcj0s",
-        "template_zdmhx6e",
-        formData,
-        "YzQP8TCxZh0JzVGQB"
-      )
-      .then(
-        (response) => {
-          form.reset();
-          toast.success("Subscription successful!");
-        },
-        (error) => {
-          alert("Failed to send email.");
-        }
-      );
+    try {
+      const response = await axios.post("https://api.payz365.com/email/subscribe", formData);
+
+      if (response.status === 200 || response.status === 201) {
+        form.reset(); // Reset form on success
+        toast.success("Subscription successful!");
+      } else {
+        throw new Error("Failed to subscribe");
+      }
+    } catch (error) {
+      toast.error("Subscription failed. Please try again.");
+      console.error("Error:", error);
+    }
   };
 
   return (
@@ -125,7 +120,7 @@ const NewsLetter = () => {
                 }}
               />
             </div>
-            <div> 
+            <div>
               <button
                 type="submit"
                 className="submit-button"
@@ -136,7 +131,6 @@ const NewsLetter = () => {
                   border: "1px solid #2D6A77",
                   borderRadius: "5px",
                   fontWeight: "bold",
-                  // width: "15%",
                   textAlign: "center",
                 }}
               >
