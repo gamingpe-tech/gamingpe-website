@@ -202,7 +202,7 @@ const Header = () => {
                 <NavLink
                   to="/gamingpe/newsletter"
                   className="hover1"
-                  id="getStartedAnchor"
+                  id="getintouch"
                   // onClick={scrollToBottom}
                 >
                   Get in touch
