@@ -1,7 +1,12 @@
 import axios from "axios";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
+import { LoadingButton } from "@mui/lab"; // Import the LoadingButton
+import { useState } from "react";
 
 const NewsLetter = () => {
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -14,15 +19,16 @@ const NewsLetter = () => {
       phoneNumber: e.target.phone.value,
       description: e.target.description.value,
     };
-
+    setLoading(true);
     try {
       const response = await axios.post(
         "https://api.payz365.com/email/subscribe",
         formData
       );
+      setLoading(false); // End loading
       if (response.status === 200 || response.status === 201) {
         form.reset(); // Reset form on success
-        location.href = "/gamingpe/event";
+        navigate("/gamingpe/event");
       } else {
         throw new Error("Failed to subscribe");
       }
@@ -131,10 +137,11 @@ const NewsLetter = () => {
               />
             </div>
             <div>
-              <button
+              <LoadingButton
                 type="submit"
-                className="submit-button"
-                style={{
+                loading={loading} // Show loading spinner while submitting
+                variant="contained"
+                sx={{
                   backgroundColor: "#41ae49",
                   color: "#FFFFFF",
                   padding: "10px 20px",
@@ -145,7 +152,7 @@ const NewsLetter = () => {
                 }}
               >
                 Join!
-              </button>
+              </LoadingButton>
             </div>
           </form>
         </div>
