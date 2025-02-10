@@ -1,29 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import {
-  RiArrowRightSLine,
-  RiFacebookFill,
-  RiTwitterFill,
-  RiInstagramFill,
-  RiYoutubeFill,
-} from "@remixicon/react";
 import ServicesCard from "./utils/ServicesCard";
 import { sectionData } from "../../mockData/sectionData";
-import {
-  servicesCardsData,
-  socialMediaTransactions,
-} from "../../mockData/servicesData";
+import { servicesCardsData } from "../../mockData/servicesData";
 import chatBot from "../../assets/images/index/chatbot.mp4";
 
 const Services = () => {
-  const { title, description, image, image2 } = sectionData.services;
-
-  const iconComponents = {
-    RiYoutubeFill: <RiYoutubeFill />,
-    RiFacebookFill: <RiFacebookFill />,
-    RiTwitterFill: <RiTwitterFill />,
-    RiInstagramFill: <RiInstagramFill />,
-  };
+  const { title, description, image } = sectionData.services;
 
   return (
     <section className="Services">
@@ -63,7 +45,10 @@ const Services = () => {
               <figure className="d-flex justify-content-center position-relative">
                 <img src={image} alt="ServicesImg" data-aos="zoom-in-up" />
               </figure>
-              <div className="position-absolute chatBotVideo" data-aos="zoom-in-up" >
+              <div
+                className="position-absolute chatBotVideo"
+                data-aos="zoom-in-up"
+              >
                 <div className="d-flex flex-column gap-3">
                   {/* <img src={image2} alt="ServicesImg" data-aos="zoom-in-up" style={{borderRadius: "12px"}} /> */}
                   <video

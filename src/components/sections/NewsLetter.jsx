@@ -1,10 +1,7 @@
-import React, { useRef } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
 const NewsLetter = () => {
-  const closeAsideBtnRef = useRef(null);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -19,11 +16,13 @@ const NewsLetter = () => {
     };
 
     try {
-      const response = await axios.post("https://api.payz365.com/email/subscribe", formData);
-
+      const response = await axios.post(
+        "https://api.payz365.com/email/subscribe",
+        formData
+      );
       if (response.status === 200 || response.status === 201) {
         form.reset(); // Reset form on success
-        toast.success("Subscription successful!");
+        location.href = "/gamingpe/event";
       } else {
         throw new Error("Failed to subscribe");
       }
@@ -36,8 +35,19 @@ const NewsLetter = () => {
   return (
     <div>
       <div className="modal-overlay subscribe-modal">
-        <div className="modal-content">
-          <h2>Subscribe to Our Insights</h2>
+        <div className="modal-content Services">
+          <h2
+            className="w-100"
+            style={{
+              fontSize: "52px",
+              background:
+                "linear-gradient(99.32deg, #B7CEA6 43.4%, #ECFBFE 54.69%, #FCFEF5 48.66%, #C0D4C9 63.86%)",
+              backgroundClip: "text",
+            }}
+          >
+            JOIN OUR EVENT
+          </h2>
+
           <form onSubmit={handleSubmit} className="subscribe-form">
             <div className="form-group">
               <input
@@ -134,7 +144,7 @@ const NewsLetter = () => {
                   textAlign: "center",
                 }}
               >
-                Subscribe
+                Join!
               </button>
             </div>
           </form>

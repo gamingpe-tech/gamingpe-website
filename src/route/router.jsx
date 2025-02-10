@@ -16,6 +16,7 @@ import APIIntegration from "../pages/APIIntegration";
 import CryptoCurrency from "../pages/CryptoCurrency";
 import OurVision from "../pages/OurVision";
 import NewsLetter from "../components/sections/NewsLetter";
+import EventInvite from "../pages/Event";
 
 export const router = createBrowserRouter([
   {
@@ -89,6 +90,10 @@ export const router = createBrowserRouter([
       {
         path: "/gamingpe/comingSoon",
         element: <ComingSoon />,
+      },
+      {
+        path: "/gamingpe/event",
+        element: <EventInvite />,
       },
     ],
   },

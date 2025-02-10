@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import StatsCards from "../utils/StatsCards";
 import { statsData } from "../../../mockData/statsData";
 import { sectionData } from "../../../mockData/sectionData";

@@ -10,6 +10,9 @@
     "preview": "vite preview --port 8080 --host"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.3",
+    "@mui/styled-engine": "^6.4.3",
     "@remixicon/react": "^4.2.0",
     "antd": "^5.23.0",
     "aos": "^2.3.4",
