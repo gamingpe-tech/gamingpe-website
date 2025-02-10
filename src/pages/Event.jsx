@@ -75,8 +75,8 @@ const EventInvite = () => {
                     width: "27px",
                   }}
                 />
-                <Link
-                  href="https://www.google.com/maps/place/Festival+Arena+-+Festival+City/@25.2136661,55.3594556,983"
+                <a
+                  href="https://maps.app.goo.gl/wFSk3K2upuCxQs5V9"
                   style={{
                     fontSize: "25px",
                     lineHeight: "1.2",
@@ -85,7 +85,7 @@ const EventInvite = () => {
                 >
                   {" "}
                   Fastival Arena, Festival City, 133B Stand Number
-                </Link>
+                </a>
               </Typography>
               <Typography
                 component="span"
@@ -101,6 +101,18 @@ const EventInvite = () => {
             </div>
           </div>
         </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d68510.02033951298!2d55.3385984!3d25.2116992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6778b3e0b7f5%3A0xc373f8771e10349d!2sFestival%20Arena%20-%20Festival%20City!5e1!3m2!1sen!2sae!4v1739187614444!5m2!1sen!2sae"
+          height="450"
+          style={{
+            border: "none",
+            width: "100%",
+            borderRadius: "40px",
+            marginTop: "40px",
+          }}
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
         <div className="mt-lg-5 pt-lg-5 mt-4 pt-4">
           <p className="w-100 text-center">
             Copyright &copy; 2025 GamingPe. All Rights Reserved.
