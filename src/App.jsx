@@ -12,6 +12,18 @@ const App = () => {
       duration: 1000,
       once: true,
     });
+    // Check if there's a hash in the URL
+    const hash = window.location.hash;
+
+    if (hash) {
+      // Remove the "#" symbol to get the actual ID
+      const elementId = hash.substring(1);
+      const element = document.getElementById(elementId);
+
+      if (element) {
+        element.click(); // Programmatically click the button
+      }
+    }
   }, []);
   return (
     <>
