@@ -45,7 +45,7 @@ const NewsLetter = () => {
     <div>
       <div className="modal-overlay subscribe-modal">
         <div className="modal-content Services">
-          <div style={{padding:"20px 0px 50px 0px"}}>
+          <div style={{padding:"33px 0px 50px 0px"}}>
             <img
               src={image}
               alt="gamingpeLogo"
