@@ -1666,6 +1666,10 @@
   .subscribe-form{
     padding: 100px 200px !important;
   }
+
+  .joinUs{
+    width: 30% !important;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1698,6 +1702,9 @@
   .subscribe-form{
     padding: 100px 100px !important;
   }
+  .joinUs{
+    width: 30% !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1705,6 +1712,9 @@
     
   .subscribe-form{
     padding: 0px 100px !important;
+  }
+  .joinUs{
+    width: 40% !important;
   }
 }
 
@@ -1723,6 +1733,9 @@
     }
     .subscribe-form{
         padding: 0px 0px !important;
+      }
+      .joinUs{
+        width: 55% !important;
       }
 }
 

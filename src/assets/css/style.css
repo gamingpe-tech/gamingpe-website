@@ -2288,6 +2288,9 @@ header .search-button:hover {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: #000000 !important;
 }
+.joinUs{
+    width: 30%;
+  }
 
 /*
 * ----------------------------------------------------------------------------------------

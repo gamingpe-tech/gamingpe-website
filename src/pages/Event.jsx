@@ -1,12 +1,22 @@
-import { Link } from "react-router-dom";
 import Google_Calendar_icon from "../assets/images/world map animation/Google_Calendar_icon.svg";
 import Google_Maps_icon from "../assets/images/world map animation/Google_Maps_icon.svg";
 import connectorImg from "../assets/images/index/connector_img.webp";
 import { Typography } from "@mui/material";
+import { sectionData } from "../mockData/sectionData";
 
 const EventInvite = () => {
+    const { image } = sectionData.ourVision;
+  
   return (
     <section className="Error ComingSoon">
+      <div style={{padding:"20px 0px 50px 0px",display:"flex",justifyContent:"center"}}>
+            <img
+              src={image}
+              alt="gamingpeLogo"
+              data-aos="zoom-in-up"
+              className="joinUs"
+            />
+          </div>
       <div className="container">
         <div className="row flex-md-row flex-column-reverse gy-md-0 gy-4">
           <div className="col-md-6">
@@ -83,8 +93,7 @@ const EventInvite = () => {
                     marginLeft: "1rem",
                   }}
                 >
-                  {" "}
-                  Fastival Arena, Festival City, 133B Stand Number
+                  Festival Arena, Festival City, 133B Stand Number
                 </a>
               </Typography>
               <Typography

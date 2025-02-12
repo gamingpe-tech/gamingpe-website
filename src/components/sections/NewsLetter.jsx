@@ -3,10 +3,13 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
 import { LoadingButton } from "@mui/lab"; // Import the LoadingButton
 import { useState } from "react";
+import { sectionData } from "../../mockData/sectionData";
 
 const NewsLetter = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
+  const { image } = sectionData.ourVision;
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -42,6 +45,14 @@ const NewsLetter = () => {
     <div>
       <div className="modal-overlay subscribe-modal">
         <div className="modal-content Services">
+          <div style={{padding:"20px 0px 50px 0px"}}>
+            <img
+              src={image}
+              alt="gamingpeLogo"
+              data-aos="zoom-in-up"
+              className="joinUs"
+            />
+          </div>
           <h2
             className="w-100"
             style={{
@@ -64,7 +75,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
@@ -77,7 +88,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
@@ -92,7 +103,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
@@ -104,7 +115,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
@@ -118,7 +129,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
@@ -130,7 +141,7 @@ const NewsLetter = () => {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   border: "1px solid #2D6A77",
-                  color: "#1392d4",
+                  color: "#FFFFFF",
                   padding: "10px",
                   borderRadius: "5px",
                 }}
