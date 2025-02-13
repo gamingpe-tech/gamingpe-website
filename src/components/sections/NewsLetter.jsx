@@ -8,7 +8,7 @@ import { sectionData } from "../../mockData/sectionData";
 const NewsLetter = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-  const { image } = sectionData.ourVision;
+  const { image2 } = sectionData.ourVision;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -44,10 +44,10 @@ const NewsLetter = () => {
   return (
     <div>
       <div className="modal-overlay subscribe-modal">
-        <div className="modal-content Services">
-          <div style={{padding:"33px 0px 50px 0px"}}>
+        <div className="modal-content Services" style={{paddingTop:"0px"}}>
+          <div style={{padding:"0px 0px 0px 0px"}}>
             <img
-              src={image}
+              src={image2}
               alt="gamingpeLogo"
               data-aos="zoom-in-up"
               className="joinUs"

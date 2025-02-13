@@ -20,6 +20,7 @@ import card4 from "../assets/images/index/card4.svg";
 import card5 from "../assets/images/index/card5.svg";
 import cryptopageimg from "../assets/images/index/cryptopageimg.png";
 import connector_img from "../assets/images/index/connector_img.webp";
+import gamingpeLogo2 from "../assets/images/index/logo2.svg";
 
 export const sectionData = {
   hero: {
@@ -185,6 +186,7 @@ export const sectionData = {
       "Gamingpe's mission is ensuring our merchants along with their customers receive the best seamless customer experience that maximizes sales, profits & client retention. Our vision is to become a global payment connector Brand known for its diversity of localized payment options within emerging markets countries.",
     ],
     image: gamingpeLogo,
+    image2:gamingpeLogo2
   },
   connectorServices: {
     title: "Connector Technology Services",
@@ -230,6 +232,11 @@ export const sectionData = {
     description:
       "Experience hassle-free gaming with transparent pricing, swift delivery, and secure transactions, backed by 24/7 support and a money-back guarantee.",
     image: coreFeaturesImg,
+  },
+  newsLetter: {
+    title: "News Letter",
+    description:
+      "Bridging technology, intelligence, and payments for a seamless client journey.",
   },
 };
 

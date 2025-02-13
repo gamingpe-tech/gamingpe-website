@@ -5,13 +5,13 @@ import { Typography } from "@mui/material";
 import { sectionData } from "../mockData/sectionData";
 
 const EventInvite = () => {
-    const { image } = sectionData.ourVision;
+    const { image2 } = sectionData.ourVision;
   
   return (
-    <section className="Error ComingSoon">
-      <div style={{padding:"20px 0px 50px 0px",display:"flex",justifyContent:"center"}}>
+    <section className="Error ComingSoon" style={{paddingTop:"0px"}}>
+      <div style={{padding:"0px 0px 0px 0px",display:"flex",justifyContent:"center"}}>
             <img
-              src={image}
+              src={image2}
               alt="gamingpeLogo"
               data-aos="zoom-in-up"
               className="joinUs"
