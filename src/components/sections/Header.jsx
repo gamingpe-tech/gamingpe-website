@@ -70,10 +70,10 @@ const Header = () => {
         if (dropdownMenu) {
           dropdownMenu.style.maxHeight = "0";
           dropdown.addEventListener("mouseenter", () =>
-            handleMouseEnter(dropdownMenu)
+            handleMouseEnter(dropdownMenu),
           );
           dropdown.addEventListener("mouseleave", () =>
-            handleMouseLeave(dropdownMenu)
+            handleMouseLeave(dropdownMenu),
           );
         }
       }
@@ -85,10 +85,10 @@ const Header = () => {
           const dropdownMenu = dropdown.querySelector(".dropdown-menu");
           if (dropdownMenu) {
             dropdown.removeEventListener("mouseenter", () =>
-              handleMouseEnter(dropdownMenu)
+              handleMouseEnter(dropdownMenu),
             );
             dropdown.removeEventListener("mouseleave", () =>
-              handleMouseLeave(dropdownMenu)
+              handleMouseLeave(dropdownMenu),
             );
           }
         }
@@ -113,7 +113,7 @@ const Header = () => {
       targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
-  
+
   useEffect(() => {
     const handleStorageChange = () => {
       const modalState = localStorage.getItem("isModalOpen");
@@ -189,7 +189,7 @@ const Header = () => {
                           {item.label}
                         </NavLink>
                       </li>
-                    )
+                    ),
                   )}
                 </ul>
                 {/* <div className="search SearchModal" onClick={openModal}>
@@ -212,7 +212,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-{/*      
+      {/*      
       <SubscribeModal
         openModal={openModal}
         closeModal={closeModal}
@@ -279,7 +279,7 @@ const Header = () => {
                     {item.label}
                   </NavLink>
                 </li>
-              )
+              ),
             )}
           </ul>
         </div>
