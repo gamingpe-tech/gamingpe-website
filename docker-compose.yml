@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gamingpe-react
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4085:80"
